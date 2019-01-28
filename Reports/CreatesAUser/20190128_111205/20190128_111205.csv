@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreatesAUser,,,2019-01-28 11:12:15,2019-01-28 11:14:18,2m - 2.768s,FAILED
+,,,,,,
+Test Cases/CreateUser,,"This test creates new user for the site-
+https://iddtrain.georgiacollaborative.com/IDDPortal/",2019-01-28 11:12:16,2019-01-28 11:14:18,2m - 1.623s,FAILED
+"for ([row = 1, row <= findTestData(""TestData"").getRowNumbers(), (row++)])",,,2019-01-28 11:12:21,2019-01-28 11:14:16,1m - 54.739s,FAILED

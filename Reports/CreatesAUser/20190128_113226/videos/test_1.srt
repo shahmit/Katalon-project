@@ -1,0 +1,232 @@
+1
+00:00:01,023 --> 00:00:01,033
+1. for ([row = 1, row <= findTestData("TestData").getRowNumbers(), (row++)])
+
+2
+00:00:05,593 --> 00:00:05,596
+1. openBrowser("")
+
+3
+00:00:36,667 --> 00:00:36,671
+5. navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+4
+00:00:40,539 --> 00:00:40,542
+9. maximizeWindow()
+
+5
+00:00:42,068 --> 00:00:42,072
+13. click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here"))
+
+6
+00:00:42,510 --> 00:00:42,517
+17. setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname"), findTestData("TestData").getValue("FirstName", row))
+
+7
+00:00:43,618 --> 00:00:43,620
+21. setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname"), findTestData("TestData").getValue("LastName", row))
+
+8
+00:00:44,470 --> 00:00:44,472
+25. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username"), findTestData("TestData").getValue("CreateUsername", row))
+
+9
+00:00:45,131 --> 00:00:45,134
+29. setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password"), findTestData("TestData").getValue("CreatePassword", row))
+
+10
+00:00:46,110 --> 00:00:46,113
+33. setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword"), findTestData("TestData").getValue("ConfirmPassword", row))
+
+11
+00:00:47,168 --> 00:00:47,172
+37. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email"), findTestData("TestData").getValue("Email", row))
+
+12
+00:00:48,687 --> 00:00:48,689
+41. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --"), "14: 7", true)
+
+13
+00:00:50,051 --> 00:00:50,053
+45. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1"), findTestData("TestData").getValue("Answer1", row))
+
+14
+00:00:50,795 --> 00:00:50,800
+49. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1"), "12: 3", true)
+
+15
+00:00:51,872 --> 00:00:51,874
+53. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2"), findTestData("TestData").getValue("Answer2", row))
+
+16
+00:00:53,178 --> 00:00:53,182
+57. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2"), "13: 4", true)
+
+17
+00:00:54,561 --> 00:00:54,565
+61. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3"), findTestData("TestData").getValue("Answer3", row))
+
+18
+00:00:55,314 --> 00:00:55,316
+65. click(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang"))
+
+19
+00:00:55,558 --> 00:00:55,564
+69. click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue"))
+
+20
+00:00:55,838 --> 00:00:55,841
+73. closeBrowser()
+
+21
+00:00:57,224 --> 00:00:57,226
+1. openBrowser("")
+
+22
+00:01:23,015 --> 00:01:23,016
+5. navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+23
+00:01:26,816 --> 00:01:26,819
+9. maximizeWindow()
+
+24
+00:01:28,043 --> 00:01:28,047
+13. click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here"))
+
+25
+00:01:28,318 --> 00:01:28,319
+17. setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname"), findTestData("TestData").getValue("FirstName", row))
+
+26
+00:01:29,062 --> 00:01:29,064
+21. setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname"), findTestData("TestData").getValue("LastName", row))
+
+27
+00:01:29,453 --> 00:01:29,455
+25. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username"), findTestData("TestData").getValue("CreateUsername", row))
+
+28
+00:01:29,872 --> 00:01:29,876
+29. setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password"), findTestData("TestData").getValue("CreatePassword", row))
+
+29
+00:01:30,295 --> 00:01:30,298
+33. setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword"), findTestData("TestData").getValue("ConfirmPassword", row))
+
+30
+00:01:30,966 --> 00:01:30,967
+37. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email"), findTestData("TestData").getValue("Email", row))
+
+31
+00:01:31,406 --> 00:01:31,408
+41. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --"), "14: 7", true)
+
+32
+00:01:31,920 --> 00:01:31,923
+45. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1"), findTestData("TestData").getValue("Answer1", row))
+
+33
+00:01:32,312 --> 00:01:32,314
+49. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1"), "12: 3", true)
+
+34
+00:01:32,818 --> 00:01:32,820
+53. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2"), findTestData("TestData").getValue("Answer2", row))
+
+35
+00:01:33,501 --> 00:01:33,502
+57. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2"), "13: 4", true)
+
+36
+00:01:34,366 --> 00:01:34,368
+61. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3"), findTestData("TestData").getValue("Answer3", row))
+
+37
+00:01:34,851 --> 00:01:34,854
+65. click(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang"))
+
+38
+00:01:35,191 --> 00:01:35,195
+69. click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue"))
+
+39
+00:01:35,541 --> 00:01:35,543
+73. closeBrowser()
+
+40
+00:01:36,970 --> 00:01:36,971
+1. openBrowser("")
+
+41
+00:02:06,016 --> 00:02:06,017
+5. navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+42
+00:02:10,366 --> 00:02:10,367
+9. maximizeWindow()
+
+43
+00:02:11,536 --> 00:02:11,538
+13. click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here"))
+
+44
+00:02:11,841 --> 00:02:11,850
+17. setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname"), findTestData("TestData").getValue("FirstName", row))
+
+45
+00:02:12,642 --> 00:02:12,644
+21. setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname"), findTestData("TestData").getValue("LastName", row))
+
+46
+00:02:13,017 --> 00:02:13,019
+25. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username"), findTestData("TestData").getValue("CreateUsername", row))
+
+47
+00:02:13,376 --> 00:02:13,378
+29. setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password"), findTestData("TestData").getValue("CreatePassword", row))
+
+48
+00:02:13,675 --> 00:02:13,676
+33. setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword"), findTestData("TestData").getValue("ConfirmPassword", row))
+
+49
+00:02:13,997 --> 00:02:13,999
+37. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email"), findTestData("TestData").getValue("Email", row))
+
+50
+00:02:14,342 --> 00:02:14,345
+41. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --"), "14: 7", true)
+
+51
+00:02:14,760 --> 00:02:14,762
+45. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1"), findTestData("TestData").getValue("Answer1", row))
+
+52
+00:02:15,068 --> 00:02:15,069
+49. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1"), "12: 3", true)
+
+53
+00:02:15,451 --> 00:02:15,452
+53. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2"), findTestData("TestData").getValue("Answer2", row))
+
+54
+00:02:15,748 --> 00:02:15,752
+57. selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2"), "13: 4", true)
+
+55
+00:02:16,285 --> 00:02:16,288
+61. setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3"), findTestData("TestData").getValue("Answer3", row))
+
+56
+00:02:16,660 --> 00:02:16,662
+65. click(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang"))
+
+57
+00:02:16,822 --> 00:02:16,826
+69. click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue"))
+
+58
+00:02:17,034 --> 00:02:17,036
+73. closeBrowser()
+

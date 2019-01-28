@@ -1,0 +1,2457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299297</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/CreatesAUser</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">CreatesAUser</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/CreatesAUser</property>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299316</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = mitali.p.shah - CPX-SJJHSRSSIFU.dir.svc.accenture.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">mitali.p.shah - CPX-SJJHSRSSIFU.dir.svc.accenture.com</property>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299317</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299318</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.0.75.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.0.75.1</property>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299319</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299732</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/CreateUser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/CreateUser</property>
+  <property name="description">This test creates new user for the site-\nhttps://iddtrain.georgiacollaborative.com/IDDPortal/</property>
+  <property name="id">Test Cases/CreateUser</property>
+  <property name="source">C:\\Users\\mitali.p.shah\\Katalon Studio\\POCGeorgiaPower\\Test Cases\\CreateUser.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299936</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) FirstName = Tester</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299948</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) LastName = Tests1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299959</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) CreateUserName = TesterTests1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299968</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) CreatePassword = Password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299978</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) ConfirmPassword = Password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299986</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Email = test@tests.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:34:59</date>
+  <millis>1548693299995</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Answer1 = Tampa</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:00</date>
+  <millis>1548693300042</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Answer2 = Designated Survivor</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:00</date>
+  <millis>1548693300055</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) Answer3 = Blue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:01</date>
+  <millis>1548693301575</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : for ([row = 1, row &amp;lt;= findTestData(\&amp;quot;TestData\&amp;quot;).getRowNumbers(), (row++)])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:04</date>
+  <millis>1548693304680</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:05</date>
+  <millis>1548693305213</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:05</date>
+  <millis>1548693305425</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338334</millis>
+  <sequence>26</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = b55ba7af-573e-4507-b69c-3ce79b7e7d6b</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">b55ba7af-573e-4507-b69c-3ce79b7e7d6b</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338373</millis>
+  <sequence>27</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 64.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Firefox 64.0</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338374</millis>
+  <sequence>28</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338383</millis>
+  <sequence>29</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338385</millis>
+  <sequence>30</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338387</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338389</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:38</date>
+  <millis>1548693338390</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://iddtrain.georgiacollaborative.com/IDDPortal/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:48</date>
+  <millis>1548693348954</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://iddtrain.georgiacollaborative.com/IDDPortal/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:48</date>
+  <millis>1548693348955</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://iddtrain.georgiacollaborative.com/IDDPortal/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:48</date>
+  <millis>1548693348958</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:52</date>
+  <millis>1548693352540</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:52</date>
+  <millis>1548693352541</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:52</date>
+  <millis>1548693352541</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:52</date>
+  <millis>1548693352987</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:52</date>
+  <millis>1548693352988</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:52</date>
+  <millis>1548693352989</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;FirstName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354035</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Tester&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354038</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;FirstName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354039</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;LastName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354350</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Testsone&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354353</millis>
+  <sequence>86</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;LastName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354354</millis>
+  <sequence>87</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreateUsername\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354669</millis>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;TesterTests11&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354671</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreateUsername\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:54</date>
+  <millis>1548693354672</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreatePassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355022</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;***********&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355026</millis>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreatePassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355028</millis>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;ConfirmPassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355502</millis>
+  <sequence>139</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;***********&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355503</millis>
+  <sequence>140</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;ConfirmPassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355504</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Email\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355758</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;test11@tests.com&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355760</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Email\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:55</date>
+  <millis>1548693355760</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --\&amp;quot;), \&amp;quot;14: 7\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:56</date>
+  <millis>1548693356672</millis>
+  <sequence>168</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;14: 7&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:56</date>
+  <millis>1548693356673</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --\&amp;quot;), \&amp;quot;14: 7\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:56</date>
+  <millis>1548693356674</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer1\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:56</date>
+  <millis>1548693356832</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Tampa&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:56</date>
+  <millis>1548693356833</millis>
+  <sequence>187</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer1\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:56</date>
+  <millis>1548693356834</millis>
+  <sequence>188</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1\&amp;quot;), \&amp;quot;12: 3\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:57</date>
+  <millis>1548693357599</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;12: 3&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:57</date>
+  <millis>1548693357600</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1\&amp;quot;), \&amp;quot;12: 3\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:57</date>
+  <millis>1548693357601</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer2\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:57</date>
+  <millis>1548693357828</millis>
+  <sequence>215</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Designated Survivor&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:57</date>
+  <millis>1548693357831</millis>
+  <sequence>216</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer2\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:57</date>
+  <millis>1548693357832</millis>
+  <sequence>217</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2\&amp;quot;), \&amp;quot;13: 4\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358471</millis>
+  <sequence>226</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;13: 4&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358472</millis>
+  <sequence>227</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2\&amp;quot;), \&amp;quot;13: 4\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358472</millis>
+  <sequence>228</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer3\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358589</millis>
+  <sequence>244</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Blue&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358591</millis>
+  <sequence>245</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer3\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358592</millis>
+  <sequence>246</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358898</millis>
+  <sequence>253</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358899</millis>
+  <sequence>254</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:58</date>
+  <millis>1548693358899</millis>
+  <sequence>255</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-01-28T11:35:59</date>
+  <millis>1548693359419</millis>
+  <sequence>262</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:59</date>
+  <millis>1548693359420</millis>
+  <sequence>263</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:35:59</date>
+  <millis>1548693359421</millis>
+  <sequence>264</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:03</date>
+  <millis>1548693363172</millis>
+  <sequence>266</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:03</date>
+  <millis>1548693363247</millis>
+  <sequence>271</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:03</date>
+  <millis>1548693363248</millis>
+  <sequence>272</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:03</date>
+  <millis>1548693363250</millis>
+  <sequence>274</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400841</millis>
+  <sequence>276</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 5888b37d-5d64-4d4b-a401-12a6da35c861</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">5888b37d-5d64-4d4b-a401-12a6da35c861</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400871</millis>
+  <sequence>277</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 64.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Firefox 64.0</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400873</millis>
+  <sequence>278</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400874</millis>
+  <sequence>279</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400876</millis>
+  <sequence>280</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400877</millis>
+  <sequence>281</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400878</millis>
+  <sequence>282</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:40</date>
+  <millis>1548693400880</millis>
+  <sequence>283</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://iddtrain.georgiacollaborative.com/IDDPortal/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:48</date>
+  <millis>1548693408679</millis>
+  <sequence>286</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://iddtrain.georgiacollaborative.com/IDDPortal/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:48</date>
+  <millis>1548693408680</millis>
+  <sequence>287</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://iddtrain.georgiacollaborative.com/IDDPortal/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:48</date>
+  <millis>1548693408681</millis>
+  <sequence>288</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:52</date>
+  <millis>1548693412418</millis>
+  <sequence>290</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:52</date>
+  <millis>1548693412419</millis>
+  <sequence>291</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:52</date>
+  <millis>1548693412419</millis>
+  <sequence>292</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:52</date>
+  <millis>1548693412754</millis>
+  <sequence>299</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:52</date>
+  <millis>1548693412757</millis>
+  <sequence>300</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:52</date>
+  <millis>1548693412758</millis>
+  <sequence>301</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;FirstName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:55</date>
+  <millis>1548693415497</millis>
+  <sequence>317</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Tester&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:55</date>
+  <millis>1548693415499</millis>
+  <sequence>318</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;FirstName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:55</date>
+  <millis>1548693415500</millis>
+  <sequence>319</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;LastName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:56</date>
+  <millis>1548693416096</millis>
+  <sequence>335</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Teststwo&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:56</date>
+  <millis>1548693416097</millis>
+  <sequence>336</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;LastName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:56</date>
+  <millis>1548693416098</millis>
+  <sequence>337</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreateUsername\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:56</date>
+  <millis>1548693416629</millis>
+  <sequence>353</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;TesterTests21&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:56</date>
+  <millis>1548693416630</millis>
+  <sequence>354</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreateUsername\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:56</date>
+  <millis>1548693416631</millis>
+  <sequence>355</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreatePassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:57</date>
+  <millis>1548693417225</millis>
+  <sequence>371</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;***********&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:57</date>
+  <millis>1548693417227</millis>
+  <sequence>372</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreatePassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:57</date>
+  <millis>1548693417230</millis>
+  <sequence>373</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;ConfirmPassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:57</date>
+  <millis>1548693417754</millis>
+  <sequence>389</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;***********&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:57</date>
+  <millis>1548693417757</millis>
+  <sequence>390</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;ConfirmPassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:57</date>
+  <millis>1548693417757</millis>
+  <sequence>391</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Email\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:58</date>
+  <millis>1548693418040</millis>
+  <sequence>407</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;test22@tests.com&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:58</date>
+  <millis>1548693418041</millis>
+  <sequence>408</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Email\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:58</date>
+  <millis>1548693418041</millis>
+  <sequence>409</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --\&amp;quot;), \&amp;quot;14: 7\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:59</date>
+  <millis>1548693419284</millis>
+  <sequence>418</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;14: 7&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:59</date>
+  <millis>1548693419286</millis>
+  <sequence>419</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --\&amp;quot;), \&amp;quot;14: 7\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:59</date>
+  <millis>1548693419287</millis>
+  <sequence>420</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer1\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-01-28T11:36:59</date>
+  <millis>1548693419564</millis>
+  <sequence>436</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Atlanta&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:59</date>
+  <millis>1548693419566</millis>
+  <sequence>437</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer1\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:36:59</date>
+  <millis>1548693419567</millis>
+  <sequence>438</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1\&amp;quot;), \&amp;quot;12: 3\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:00</date>
+  <millis>1548693420392</millis>
+  <sequence>447</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;12: 3&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:00</date>
+  <millis>1548693420393</millis>
+  <sequence>448</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1\&amp;quot;), \&amp;quot;12: 3\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:00</date>
+  <millis>1548693420393</millis>
+  <sequence>449</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer2\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:00</date>
+  <millis>1548693420608</millis>
+  <sequence>465</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Homeland Security&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:00</date>
+  <millis>1548693420610</millis>
+  <sequence>466</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer2\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:00</date>
+  <millis>1548693420611</millis>
+  <sequence>467</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2\&amp;quot;), \&amp;quot;13: 4\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:01</date>
+  <millis>1548693421392</millis>
+  <sequence>476</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;13: 4&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:01</date>
+  <millis>1548693421394</millis>
+  <sequence>477</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2\&amp;quot;), \&amp;quot;13: 4\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:01</date>
+  <millis>1548693421396</millis>
+  <sequence>478</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer3\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:01</date>
+  <millis>1548693421608</millis>
+  <sequence>494</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Yellow&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:01</date>
+  <millis>1548693421609</millis>
+  <sequence>495</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer3\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:01</date>
+  <millis>1548693421610</millis>
+  <sequence>496</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:02</date>
+  <millis>1548693422076</millis>
+  <sequence>503</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:02</date>
+  <millis>1548693422077</millis>
+  <sequence>504</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:02</date>
+  <millis>1548693422077</millis>
+  <sequence>505</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:02</date>
+  <millis>1548693422928</millis>
+  <sequence>512</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:02</date>
+  <millis>1548693422929</millis>
+  <sequence>513</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:02</date>
+  <millis>1548693422930</millis>
+  <sequence>514</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:05</date>
+  <millis>1548693425139</millis>
+  <sequence>516</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:05</date>
+  <millis>1548693425164</millis>
+  <sequence>521</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:05</date>
+  <millis>1548693425164</millis>
+  <sequence>522</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:05</date>
+  <millis>1548693425166</millis>
+  <sequence>524</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455013</millis>
+  <sequence>526</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 13dfe578-8b28-4ea5-a96e-fb458e9e2af1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">13dfe578-8b28-4ea5-a96e-fb458e9e2af1</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455047</millis>
+  <sequence>527</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 64.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Firefox 64.0</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455050</millis>
+  <sequence>528</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455052</millis>
+  <sequence>529</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455054</millis>
+  <sequence>530</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455056</millis>
+  <sequence>531</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455057</millis>
+  <sequence>532</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:35</date>
+  <millis>1548693455057</millis>
+  <sequence>533</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://iddtrain.georgiacollaborative.com/IDDPortal/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:47</date>
+  <millis>1548693467008</millis>
+  <sequence>536</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://iddtrain.georgiacollaborative.com/IDDPortal/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:47</date>
+  <millis>1548693467010</millis>
+  <sequence>537</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://iddtrain.georgiacollaborative.com/IDDPortal/\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:47</date>
+  <millis>1548693467011</millis>
+  <sequence>538</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:50</date>
+  <millis>1548693470537</millis>
+  <sequence>540</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:50</date>
+  <millis>1548693470539</millis>
+  <sequence>541</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:50</date>
+  <millis>1548693470540</millis>
+  <sequence>542</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:51</date>
+  <millis>1548693471682</millis>
+  <sequence>549</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:51</date>
+  <millis>1548693471684</millis>
+  <sequence>550</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:51</date>
+  <millis>1548693471685</millis>
+  <sequence>551</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;FirstName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473216</millis>
+  <sequence>567</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Tester&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473217</millis>
+  <sequence>568</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;FirstName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473218</millis>
+  <sequence>569</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;LastName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473610</millis>
+  <sequence>585</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Teststhree&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473611</millis>
+  <sequence>586</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;LastName\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473612</millis>
+  <sequence>587</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreateUsername\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473949</millis>
+  <sequence>603</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;TesterTests31&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473950</millis>
+  <sequence>604</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreateUsername\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:53</date>
+  <millis>1548693473951</millis>
+  <sequence>605</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreatePassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:54</date>
+  <millis>1548693474452</millis>
+  <sequence>621</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;***********&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:54</date>
+  <millis>1548693474455</millis>
+  <sequence>622</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;CreatePassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:54</date>
+  <millis>1548693474457</millis>
+  <sequence>623</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;ConfirmPassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:54</date>
+  <millis>1548693474893</millis>
+  <sequence>639</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;***********&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:54</date>
+  <millis>1548693474895</millis>
+  <sequence>640</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setMaskedText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;ConfirmPassword\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:54</date>
+  <millis>1548693474896</millis>
+  <sequence>641</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Email\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:55</date>
+  <millis>1548693475417</millis>
+  <sequence>657</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;test33@tests.com&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:55</date>
+  <millis>1548693475418</millis>
+  <sequence>658</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Email\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:55</date>
+  <millis>1548693475419</millis>
+  <sequence>659</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --\&amp;quot;), \&amp;quot;14: 7\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:56</date>
+  <millis>1548693476461</millis>
+  <sequence>668</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;14: 7&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:56</date>
+  <millis>1548693476462</millis>
+  <sequence>669</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --\&amp;quot;), \&amp;quot;14: 7\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:56</date>
+  <millis>1548693476463</millis>
+  <sequence>670</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer1\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">47</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:56</date>
+  <millis>1548693476678</millis>
+  <sequence>686</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Atlanta&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:56</date>
+  <millis>1548693476679</millis>
+  <sequence>687</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer1\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:56</date>
+  <millis>1548693476680</millis>
+  <sequence>688</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1\&amp;quot;), \&amp;quot;12: 3\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:57</date>
+  <millis>1548693477548</millis>
+  <sequence>697</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;12: 3&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:57</date>
+  <millis>1548693477550</millis>
+  <sequence>698</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1\&amp;quot;), \&amp;quot;12: 3\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:57</date>
+  <millis>1548693477551</millis>
+  <sequence>699</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer2\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:57</date>
+  <millis>1548693477830</millis>
+  <sequence>715</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Bodyguard&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:57</date>
+  <millis>1548693477831</millis>
+  <sequence>716</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer2\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:57</date>
+  <millis>1548693477832</millis>
+  <sequence>717</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2\&amp;quot;), \&amp;quot;13: 4\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:58</date>
+  <millis>1548693478888</millis>
+  <sequence>726</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;13: 4&amp;apos; are selected in object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2&amp;apos;  using regular expression</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:58</date>
+  <millis>1548693478890</millis>
+  <sequence>727</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : selectOptionByValue(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2\&amp;quot;), \&amp;quot;13: 4\&amp;quot;, true)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:58</date>
+  <millis>1548693478891</millis>
+  <sequence>728</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer3\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:59</date>
+  <millis>1548693479083</millis>
+  <sequence>744</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Purple&amp;apos; is set on object &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:59</date>
+  <millis>1548693479085</millis>
+  <sequence>745</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3\&amp;quot;), findTestData(\&amp;quot;TestData\&amp;quot;).getValue(\&amp;quot;Answer3\&amp;quot;, row))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:59</date>
+  <millis>1548693479087</millis>
+  <sequence>746</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-01-28T11:37:59</date>
+  <millis>1548693479396</millis>
+  <sequence>753</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:59</date>
+  <millis>1548693479397</millis>
+  <sequence>754</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:37:59</date>
+  <millis>1548693479398</millis>
+  <sequence>755</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">64</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-01-28T11:38:00</date>
+  <millis>1548693480027</millis>
+  <sequence>762</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:38:00</date>
+  <millis>1548693480028</millis>
+  <sequence>763</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue\&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:38:00</date>
+  <millis>1548693480029</millis>
+  <sequence>764</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-01-28T11:38:03</date>
+  <millis>1548693483825</millis>
+  <sequence>766</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:38:03</date>
+  <millis>1548693483872</millis>
+  <sequence>771</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:38:03</date>
+  <millis>1548693483873</millis>
+  <sequence>772</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : for ([row = 1, row &amp;lt;= findTestData(\&amp;quot;TestData\&amp;quot;).getRowNumbers(), (row++)])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:38:03</date>
+  <millis>1548693483873</millis>
+  <sequence>773</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/CreateUser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:38:06</date>
+  <millis>1548693486137</millis>
+  <sequence>774</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/CreateUser</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-01-28T11:38:06</date>
+  <millis>1548693486229</millis>
+  <sequence>775</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/CreatesAUser</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,20 @@
+1
+00:00:00,398 --> 00:00:00,402
+1. for ([row = 1, row <= findTestData("TestData").getRowNumbers(), (row++)])
+
+2
+00:00:01,647 --> 00:00:01,648
+1. openBrowser("")
+
+3
+00:00:27,818 --> 00:00:27,819
+5. navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+4
+00:00:31,076 --> 00:00:31,077
+9. maximizeWindow()
+
+5
+00:00:32,378 --> 00:00:32,390
+13. click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here"))
+

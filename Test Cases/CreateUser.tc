@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test creates new user for the site-
+https://iddtrain.georgiacollaborative.com/IDDPortal/</description>
+   <name>CreateUser</name>
+   <tag>User</tag>
+   <comment></comment>
+   <testCaseGuid>a969fc54-d0f6-4406-8628-09c3e46ff09c</testCaseGuid>
+   <variable>
+      <defaultValue>'Tester'</defaultValue>
+      <description></description>
+      <id>e3a8ca0d-b8ad-4b84-b48d-5a7fd9b1030e</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tests1'</defaultValue>
+      <description></description>
+      <id>c70309df-51b0-4df3-9e27-6c583b2a68a6</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TesterTests1'</defaultValue>
+      <description></description>
+      <id>bbdb4151-cfdc-47bb-8eca-eeb33c9b5677</id>
+      <masked>false</masked>
+      <name>CreateUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password'</defaultValue>
+      <description></description>
+      <id>e8f97f66-9fc1-4cad-a3dd-0137f2cdf170</id>
+      <masked>false</masked>
+      <name>CreatePassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password'</defaultValue>
+      <description></description>
+      <id>9a5f97d2-98d0-4631-aa0a-a5cdba93c12d</id>
+      <masked>false</masked>
+      <name>ConfirmPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'test@tests.com'</defaultValue>
+      <description></description>
+      <id>95f36ede-560d-4721-bfd3-95e0d2d8ae38</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tampa'</defaultValue>
+      <description></description>
+      <id>8ed03382-10af-4319-a94c-460cc45167af</id>
+      <masked>false</masked>
+      <name>Answer1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Designated Survivor'</defaultValue>
+      <description></description>
+      <id>9e9113ff-cb31-4ee8-a633-2367fb59ea39</id>
+      <masked>false</masked>
+      <name>Answer2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Blue'</defaultValue>
+      <description></description>
+      <id>3b5b0f75-7cde-46d6-9b6a-ff250b8e98f7</id>
+      <masked>false</masked>
+      <name>Answer3</name>
+   </variable>
+</TestCaseEntity>

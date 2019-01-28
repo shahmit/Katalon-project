@@ -1,0 +1,440 @@
+1
+00:00:00,992 --> 00:00:00,997
+1. openBrowser("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+2
+00:00:39,034 --> 00:00:39,037
+5. navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+3
+00:00:39,053 --> 00:00:39,059
+9. maximizeWindow()
+
+4
+00:00:40,412 --> 00:00:40,415
+13. setText(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username"), "Test123")
+
+5
+00:00:41,025 --> 00:00:41,027
+17. setText(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password"), "Password123")
+
+6
+00:00:41,696 --> 00:00:41,698
+21. Thread.sleep(3000)
+
+7
+00:00:41,702 --> 00:00:41,705
+25. click(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login"))
+
+8
+00:00:41,909 --> 00:00:41,911
+29. Thread.sleep(2000)
+
+9
+00:00:41,914 --> 00:00:41,919
+33. click(findTestObject("Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application"))
+
+10
+00:00:42,942 --> 00:00:42,944
+37. Thread.sleep(2000)
+
+11
+00:00:42,948 --> 00:00:42,950
+41. click(findTestObject("Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co"))
+
+12
+00:00:43,394 --> 00:00:43,396
+45. click(findTestObject("Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app"))
+
+13
+00:00:44,843 --> 00:00:44,845
+49. Thread.sleep(2000)
+
+14
+00:00:44,852 --> 00:00:44,856
+55. Start of General Page
+
+15
+00:00:45,386 --> 00:00:45,388
+59. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName"), "LastName")
+
+16
+00:00:45,777 --> 00:00:45,782
+63. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob"), "01/01/1990")
+
+17
+00:00:46,582 --> 00:00:46,587
+67. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender"))
+
+18
+00:00:46,826 --> 00:00:46,829
+71. Thread.sleep(2000)
+
+19
+00:00:46,834 --> 00:00:46,836
+75. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male"))
+
+20
+00:00:47,113 --> 00:00:47,117
+79. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus"))
+
+21
+00:00:47,411 --> 00:00:47,414
+83. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married"))
+
+22
+00:00:47,657 --> 00:00:47,660
+87. Thread.sleep(2000)
+
+23
+00:00:47,664 --> 00:00:47,666
+91. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race"))
+
+24
+00:00:47,937 --> 00:00:47,940
+95. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian"))
+
+25
+00:00:48,290 --> 00:00:48,292
+99. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic"))
+
+26
+00:00:48,680 --> 00:00:48,683
+103. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No"))
+
+27
+00:00:48,961 --> 00:00:48,964
+107. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN"), "800-10-0101")
+
+28
+00:00:49,572 --> 00:00:49,576
+111. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements"))
+
+29
+00:00:49,883 --> 00:00:49,886
+115. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen"))
+
+30
+00:00:50,162 --> 00:00:50,165
+119. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber"), "(111) 111-1111")
+
+31
+00:00:50,946 --> 00:00:50,948
+125. Enter Street Address
+
+32
+00:00:52,183 --> 00:00:52,186
+129. Thread.sleep(1000)
+
+33
+00:00:53,207 --> 00:00:53,209
+133. sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr"), Keys.chord(ARROW_DOWN, ENTER))
+
+34
+00:00:53,390 --> 00:00:53,391
+137. Thread.sleep(1000)
+
+35
+00:00:53,394 --> 00:00:53,396
+141. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)"))
+
+36
+00:00:53,583 --> 00:00:53,585
+145. Thread.sleep(1000)
+
+37
+00:00:54,590 --> 00:00:54,591
+149. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)"))
+
+38
+00:00:54,721 --> 00:00:54,722
+153. Thread.sleep(1000)
+
+39
+00:00:55,723 --> 00:00:55,724
+157. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame"))
+
+40
+00:00:55,885 --> 00:00:55,888
+161. Thread.sleep(1000)
+
+41
+00:00:55,893 --> 00:00:55,896
+165. scrollToElement(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page"), 0)
+
+42
+00:00:55,966 --> 00:00:55,968
+171. End of General Information Page 1
+
+43
+00:00:56,182 --> 00:00:56,185
+177. Start of General info Page 2/2
+
+44
+00:00:57,189 --> 00:00:57,191
+181. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName"), "PrimaryName")
+
+45
+00:00:57,600 --> 00:00:57,601
+185. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pLName"), "PrimaryLastName")
+
+46
+00:00:58,130 --> 00:00:58,133
+189. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship"))
+
+47
+00:00:58,319 --> 00:00:58,321
+193. Thread.sleep(1000)
+
+48
+00:00:59,325 --> 00:00:59,326
+197. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/span_Case Worker"), STOP_ON_FAILURE)
+
+49
+00:00:59,576 --> 00:00:59,578
+201. sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))
+
+50
+00:00:59,582 --> 00:00:59,584
+205. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pAge"), "30")
+
+51
+00:00:59,879 --> 00:00:59,882
+209. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__ppphoneNumber"), "2111111111")
+
+52
+00:01:00,303 --> 00:01:00,306
+213. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/div_Check here if the primary"))
+
+53
+00:01:00,530 --> 00:01:00,535
+217. Thread.sleep(1000)
+
+54
+00:01:01,538 --> 00:01:01,539
+221. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/button_Next Page"))
+
+55
+00:01:01,700 --> 00:01:01,702
+227. Start of Legal Status and Guardian Page
+
+56
+00:01:01,842 --> 00:01:01,843
+231. click(findTestObject("Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/Span in the dropdown"))
+
+57
+00:01:02,058 --> 00:01:02,061
+235. Thread.sleep(1000)
+
+58
+00:01:02,068 --> 00:01:02,070
+241. End of Legal Status and Guardian Page
+
+59
+00:01:02,249 --> 00:01:02,251
+245. Thread.sleep(1000)
+
+60
+00:01:02,254 --> 00:01:02,255
+249. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select"))
+
+61
+00:01:02,411 --> 00:01:02,413
+253. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value"))
+
+62
+00:01:02,624 --> 00:01:02,627
+257. Thread.sleep(1000)
+
+63
+00:01:02,633 --> 00:01:02,635
+261. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/No- other than English"))
+
+64
+00:01:02,804 --> 00:01:02,806
+265. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/Communicated Verbally"))
+
+65
+00:01:02,935 --> 00:01:02,938
+269. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Preferred Mode of Communication"))
+
+66
+00:01:03,125 --> 00:01:03,127
+273. Thread.sleep(2000)
+
+67
+00:01:03,131 --> 00:01:03,135
+279. Add Send Keys here
+
+68
+00:01:03,139 --> 00:01:03,140
+283. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication"), STOP_ON_FAILURE)
+
+69
+00:01:03,373 --> 00:01:03,374
+287. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf"))
+
+70
+00:01:03,706 --> 00:01:03,709
+291. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf- 2nd radio"))
+
+71
+00:01:03,921 --> 00:01:03,922
+295. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 1"))
+
+72
+00:01:04,129 --> 00:01:04,130
+299. click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 2"))
+
+73
+00:01:04,338 --> 00:01:04,339
+305. End of Communication, Hearing and Vision
+
+74
+00:01:04,641 --> 00:01:04,643
+309. Thread.sleep(2000)
+
+75
+00:01:04,648 --> 00:01:04,649
+315. Start of IDD Diagonosis, Resources & Referrals
+
+76
+00:01:04,878 --> 00:01:04,880
+319. click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Choose"))
+
+77
+00:01:05,462 --> 00:01:05,467
+323. click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Access_Crisis Line"))
+
+78
+00:01:05,790 --> 00:01:05,792
+327. click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Current Resource Selection"))
+
+79
+00:01:06,070 --> 00:01:06,072
+331. click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Adoption Assistance"))
+
+80
+00:01:06,459 --> 00:01:06,462
+335. sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input__pReferral Income"), "50000")
+
+81
+00:01:06,728 --> 00:01:06,730
+341. End of Page IDD Diagonosis, Resources and Referrals
+
+82
+00:01:06,888 --> 00:01:06,891
+347. Start of Physician Page
+
+83
+00:01:06,895 --> 00:01:06,899
+351. setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhysician Name"), "Hopkins")
+
+84
+00:01:07,252 --> 00:01:07,255
+355. setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pCity"), "Fort Smith")
+
+85
+00:01:07,696 --> 00:01:07,699
+359. click(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/label_Enter State"))
+
+86
+00:01:07,899 --> 00:01:07,900
+363. Thread.sleep(2000)
+
+87
+00:01:07,903 --> 00:01:07,904
+367. click(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/Span_State - Arkansas"))
+
+88
+00:01:08,135 --> 00:01:08,136
+371. setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pZip code"), "30346")
+
+89
+00:01:08,470 --> 00:01:08,473
+375. setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhone Number"), "2111111111")
+
+90
+00:01:08,972 --> 00:01:08,976
+379. click(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/div_Save Button"))
+
+91
+00:01:09,161 --> 00:01:09,167
+383. Thread.sleep(1000)
+
+92
+00:01:09,176 --> 00:01:09,178
+389. End of Physician Page
+
+93
+00:01:09,576 --> 00:01:09,578
+395. Start of Application Supporting Document
+
+94
+00:01:10,583 --> 00:01:10,584
+399. click(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/label_Document Type"), STOP_ON_FAILURE)
+
+95
+00:01:10,789 --> 00:01:10,790
+403. click(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/li_Birth Certificate"), STOP_ON_FAILURE)
+
+96
+00:01:10,949 --> 00:01:10,951
+407. Thread.sleep(5000)
+
+97
+00:01:10,955 --> 00:01:10,956
+411. actions = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver())
+
+98
+00:01:10,993 --> 00:01:10,995
+415. actions.moveToElement(findWebElement(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Choose File"), 30))
+
+99
+00:01:11,060 --> 00:01:11,062
+419. actions.sendKeys("C:\\Users\\mitali.p.shah\\Downloads\\Test.docx")
+
+100
+00:01:11,073 --> 00:01:11,075
+423. build().perform()
+
+101
+00:01:11,859 --> 00:01:11,862
+427. click(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Upload"))
+
+102
+00:01:11,982 --> 00:01:11,984
+431. Thread.sleep(1000)
+
+103
+00:01:11,987 --> 00:01:11,989
+437. End of Application Supporting Documents
+
+104
+00:01:12,255 --> 00:01:12,256
+441. setText(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/input__fName"), "Applicant Name")
+
+105
+00:01:12,793 --> 00:01:12,796
+445. setText(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/input__lName"), "Applicant Last Name")
+
+106
+00:01:13,498 --> 00:01:13,501
+449. click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Application completed by"))
+
+107
+00:01:13,747 --> 00:01:13,749
+453. click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Method of Contact"))
+
+108
+00:01:14,134 --> 00:01:14,136
+457. setText(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/input__pphoneNumber"), "2111111111")
+
+109
+00:01:14,558 --> 00:01:14,559
+461. click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/div_I certify"))
+
+110
+00:01:14,760 --> 00:01:14,762
+465. click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/button_Submit Application"))
+

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Submit App,,,2019-01-28 11:12:17,2019-01-28 11:14:20,2m - 2.910s,FAILED
+,,,,,,
+Test Cases/Submit Application,,,2019-01-28 11:12:19,2019-01-28 11:14:20,2m - 0.750s,FAILED
+"openBrowser(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",,,2019-01-28 11:12:25,2019-01-28 11:14:18,1m - 52.409s,FAILED

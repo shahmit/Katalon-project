@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreatesAUser,Chrome 71.0.3578.98,,2019-01-28 11:32:32,2019-01-28 11:34:55,2m - 22.480s,PASSED
+,,,,,,
+Test Cases/CreateUser,Chrome 71.0.3578.98,"This test creates new user for the site-
+https://iddtrain.georgiacollaborative.com/IDDPortal/",2019-01-28 11:32:33,2019-01-28 11:34:55,2m - 21.762s,PASSED
+"for ([row = 1, row <= findTestData(""TestData"").getRowNumbers(), (row++)])",Chrome 71.0.3578.98,,2019-01-28 11:32:35,2019-01-28 11:34:53,2m - 17.249s,PASSED

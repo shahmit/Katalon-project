@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Submit App" time="104" tests="1" failures="0" errors="0">
+   <testsuite name="Submit App" tests="1" failures="0" errors="0" time="104" timestamp="2019-01-28 11:39:41" hostname="mitali.p.shah - CPX-SJJHSRSSIFU.dir.svc.accenture.com" id="Test Suites/Submit App">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mitali.p.shah\\Katalon Studio\\POCGeorgiaPower\\Reports\\Submit App\\20190128_113228"/>
+         <property name="logFiles" value="C:\\Users\\mitali.p.shah\\Katalon Studio\\POCGeorgiaPower\\Reports\\Submit App\\20190128_113228\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mitali.p.shah - CPX-SJJHSRSSIFU.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="3a558c51-9ed3-40b3-a819-5660a5c40a11"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Submit Application" classname="Test Cases/Submit Application" status="PASSED">
+         <system-out><![CDATA[2019-01-28 11:39:41 - [TEST_CASE][PASSED] - Test Cases/Submit Application: Test Cases/Submit Application
+
+2019-01-28 11:39:42 - [TEST_STEP][PASSED] - openBrowser("https://iddtrain.georgiacollaborative.com/IDDPortal/"): Browser is opened with url: 'https://iddtrain.georgiacollaborative.com/IDDPortal/'
+
+2019-01-28 11:39:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-28 11:39:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-28 11:40:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://iddtrain.georgiacollaborative.com/IDDPortal/'
+
+2019-01-28 11:40:28 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/"): NOT_RUN: navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+2019-01-28 11:40:28 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+2019-01-28 11:40:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 11:40:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 11:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username"), "Test123"): Text 'Test123' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username'
+
+2019-01-28 11:40:32 - [MESSAGE][PASSED] - Text 'Test123' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username'
+
+2019-01-28 11:40:32 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password"), "Password123"): Text 'Password123' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password'
+
+2019-01-28 11:40:33 - [MESSAGE][PASSED] - Text 'Password123' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password'
+
+2019-01-28 11:40:33 - [TEST_STEP][NOT_RUN] - Thread.sleep(3000): NOT_RUN: Thread.sleep(3000)
+
+2019-01-28 11:40:33 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(3000)
+
+2019-01-28 11:40:33 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login' is clicked on
+
+2019-01-28 11:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login' is clicked on
+
+2019-01-28 11:40:34 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:34 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application' is clicked on
+
+2019-01-28 11:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application' is clicked on
+
+2019-01-28 11:40:36 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:36 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co' is clicked on
+
+2019-01-28 11:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co' is clicked on
+
+2019-01-28 11:40:36 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app' is clicked on
+
+2019-01-28 11:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app' is clicked on
+
+2019-01-28 11:40:39 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:39 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:39 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__fName"), "FirstName"): Text 'FirstName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__fName'
+
+2019-01-28 11:40:39 - [MESSAGE][PASSED] - Text 'FirstName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__fName'
+
+2019-01-28 11:40:39 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName"), "LastName"): Text 'LastName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName'
+
+2019-01-28 11:40:40 - [MESSAGE][PASSED] - Text 'LastName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName'
+
+2019-01-28 11:40:40 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob"), "01/01/1990"): Text '01/01/1990' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob'
+
+2019-01-28 11:40:41 - [MESSAGE][PASSED] - Text '01/01/1990' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob'
+
+2019-01-28 11:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender' is clicked on
+
+2019-01-28 11:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender' is clicked on
+
+2019-01-28 11:40:41 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:41 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male' is clicked on
+
+2019-01-28 11:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male' is clicked on
+
+2019-01-28 11:40:42 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus' is clicked on
+
+2019-01-28 11:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus' is clicked on
+
+2019-01-28 11:40:42 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married' is clicked on
+
+2019-01-28 11:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married' is clicked on
+
+2019-01-28 11:40:43 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:43 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race' is clicked on
+
+2019-01-28 11:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race' is clicked on
+
+2019-01-28 11:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian' is clicked on
+
+2019-01-28 11:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian' is clicked on
+
+2019-01-28 11:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic' is clicked on
+
+2019-01-28 11:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic' is clicked on
+
+2019-01-28 11:40:44 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No' is clicked on
+
+2019-01-28 11:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No' is clicked on
+
+2019-01-28 11:40:44 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN"), "800-10-0101"): Text '800-10-0101' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN'
+
+2019-01-28 11:40:44 - [MESSAGE][PASSED] - Text '800-10-0101' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN'
+
+2019-01-28 11:40:44 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements' is clicked on
+
+2019-01-28 11:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements' is clicked on
+
+2019-01-28 11:40:45 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen' is clicked on
+
+2019-01-28 11:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen' is clicked on
+
+2019-01-28 11:40:45 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber"), "(111) 111-1111"): Text '(111) 111-1111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber'
+
+2019-01-28 11:40:45 - [MESSAGE][PASSED] - Text '(111) 111-1111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber'
+
+2019-01-28 11:40:45 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr"), "3 Ravinia Dr, At"): Text '3 Ravinia Dr, At' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr'
+
+2019-01-28 11:40:46 - [MESSAGE][PASSED] - Text '3 Ravinia Dr, At' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr'
+
+2019-01-28 11:40:46 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 11:40:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr'
+
+2019-01-28 11:40:47 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr'
+
+2019-01-28 11:40:47 - [TEST_STEP][NOT_RUN] - Thread.sleep(1000): NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:47 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:47 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)' is clicked on
+
+2019-01-28 11:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)' is clicked on
+
+2019-01-28 11:40:48 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 11:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)' is clicked on
+
+2019-01-28 11:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)' is clicked on
+
+2019-01-28 11:40:49 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 11:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame' is clicked on
+
+2019-01-28 11:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame' is clicked on
+
+2019-01-28 11:40:50 - [TEST_STEP][NOT_RUN] - Thread.sleep(1000): NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:50 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page"), 0): Scroll to object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page' successfully
+
+2019-01-28 11:40:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-28 11:40:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page' successfully
+
+2019-01-28 11:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page' is clicked on
+
+2019-01-28 11:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page' is clicked on
+
+2019-01-28 11:40:51 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 11:40:52 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName"), "PrimaryName"): Text 'PrimaryName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName'
+
+2019-01-28 11:40:52 - [MESSAGE][PASSED] - Text 'PrimaryName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName'
+
+2019-01-28 11:40:52 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pLName"), "PrimaryLastName"): Text 'PrimaryLastName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pLName'
+
+2019-01-28 11:40:53 - [MESSAGE][PASSED] - Text 'PrimaryLastName' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pLName'
+
+2019-01-28 11:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship' is clicked on
+
+2019-01-28 11:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship' is clicked on
+
+2019-01-28 11:40:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 11:40:54 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/span_Case Worker"), STOP_ON_FAILURE): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/span_Case Worker' is clicked on
+
+2019-01-28 11:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/span_Case Worker' is clicked on
+
+2019-01-28 11:40:54 - [TEST_STEP][NOT_RUN] - sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER)): NOT_RUN: sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))
+
+2019-01-28 11:40:54 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))
+
+2019-01-28 11:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pAge"), "30"): Text '30' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pAge'
+
+2019-01-28 11:40:55 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pAge'
+
+2019-01-28 11:40:55 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__ppphoneNumber"), "2111111111"): Text '2111111111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__ppphoneNumber'
+
+2019-01-28 11:40:55 - [MESSAGE][PASSED] - Text '2111111111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__ppphoneNumber'
+
+2019-01-28 11:40:55 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/div_Check here if the primary")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/div_Check here if the primary' is clicked on
+
+2019-01-28 11:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/div_Check here if the primary' is clicked on
+
+2019-01-28 11:40:56 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 11:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/button_Next Page")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/button_Next Page' is clicked on
+
+2019-01-28 11:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/button_Next Page' is clicked on
+
+2019-01-28 11:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/label_Select")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/label_Select' is clicked on
+
+2019-01-28 11:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/label_Select' is clicked on
+
+2019-01-28 11:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/Span in the dropdown")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/Span in the dropdown' is clicked on
+
+2019-01-28 11:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/Span in the dropdown' is clicked on
+
+2019-01-28 11:40:58 - [TEST_STEP][NOT_RUN] - Thread.sleep(1000): NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:58 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:58 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/button_Next Page_2")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/button_Next Page_2' is clicked on
+
+2019-01-28 11:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/button_Next Page_2' is clicked on
+
+2019-01-28 11:40:59 - [TEST_STEP][NOT_RUN] - Thread.sleep(1000): NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:59 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select' is clicked on
+
+2019-01-28 11:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select' is clicked on
+
+2019-01-28 11:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value' is clicked on
+
+2019-01-28 11:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value' is clicked on
+
+2019-01-28 11:40:59 - [TEST_STEP][NOT_RUN] - Thread.sleep(1000): NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:59 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/No- other than English")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/No- other than English' is clicked on
+
+2019-01-28 11:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/No- other than English' is clicked on
+
+2019-01-28 11:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/Communicated Verbally")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/Communicated Verbally' is clicked on
+
+2019-01-28 11:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/Communicated Verbally' is clicked on
+
+2019-01-28 11:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Preferred Mode of Communication")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Preferred Mode of Communication' is clicked on
+
+2019-01-28 11:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Preferred Mode of Communication' is clicked on
+
+2019-01-28 11:41:01 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:01 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:01 - [TEST_STEP][NOT_RUN] - sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER)): NOT_RUN: sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))
+
+2019-01-28 11:41:01 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))
+
+2019-01-28 11:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication"), STOP_ON_FAILURE): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication' is clicked on
+
+2019-01-28 11:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication' is clicked on
+
+2019-01-28 11:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf' is clicked on
+
+2019-01-28 11:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf' is clicked on
+
+2019-01-28 11:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf- 2nd radio")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf- 2nd radio' is clicked on
+
+2019-01-28 11:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf- 2nd radio' is clicked on
+
+2019-01-28 11:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 1")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 1' is clicked on
+
+2019-01-28 11:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 1' is clicked on
+
+2019-01-28 11:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 2")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 2' is clicked on
+
+2019-01-28 11:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 2' is clicked on
+
+2019-01-28 11:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/button_Next Page_3")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/button_Next Page_3' is clicked on
+
+2019-01-28 11:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/button_Next Page_3' is clicked on
+
+2019-01-28 11:41:03 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:03 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input_No_iddConfirmed")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input_No_iddConfirmed' is clicked on
+
+2019-01-28 11:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input_No_iddConfirmed' is clicked on
+
+2019-01-28 11:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Choose")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Choose' is clicked on
+
+2019-01-28 11:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Choose' is clicked on
+
+2019-01-28 11:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Access_Crisis Line")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Access_Crisis Line' is clicked on
+
+2019-01-28 11:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Access_Crisis Line' is clicked on
+
+2019-01-28 11:41:05 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Current Resource Selection")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Current Resource Selection' is clicked on
+
+2019-01-28 11:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Current Resource Selection' is clicked on
+
+2019-01-28 11:41:05 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Adoption Assistance")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Adoption Assistance' is clicked on
+
+2019-01-28 11:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Adoption Assistance' is clicked on
+
+2019-01-28 11:41:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input__pReferral Income"), "50000"): Keys '50000' sent to object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input__pReferral Income'
+
+2019-01-28 11:41:06 - [MESSAGE][PASSED] - Keys '50000' sent to object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input__pReferral Income'
+
+2019-01-28 11:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/button_Next Page_4")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/button_Next Page_4' is clicked on
+
+2019-01-28 11:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/button_Next Page_4' is clicked on
+
+2019-01-28 11:41:06 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:06 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhysician Name"), "Hopkins"): Text 'Hopkins' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhysician Name'
+
+2019-01-28 11:41:07 - [MESSAGE][PASSED] - Text 'Hopkins' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhysician Name'
+
+2019-01-28 11:41:07 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pCity"), "Fort Smith"): Text 'Fort Smith' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pCity'
+
+2019-01-28 11:41:07 - [MESSAGE][PASSED] - Text 'Fort Smith' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pCity'
+
+2019-01-28 11:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/label_Enter State")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/label_Enter State' is clicked on
+
+2019-01-28 11:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/label_Enter State' is clicked on
+
+2019-01-28 11:41:08 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:08 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-01-28 11:41:08 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/Span_State - Arkansas")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/Span_State - Arkansas' is clicked on
+
+2019-01-28 11:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/Span_State - Arkansas' is clicked on
+
+2019-01-28 11:41:08 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pZip code"), "30346"): Text '30346' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pZip code'
+
+2019-01-28 11:41:09 - [MESSAGE][PASSED] - Text '30346' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pZip code'
+
+2019-01-28 11:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhone Number"), "2111111111"): Text '2111111111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhone Number'
+
+2019-01-28 11:41:09 - [MESSAGE][PASSED] - Text '2111111111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhone Number'
+
+2019-01-28 11:41:09 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/div_Save Button")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/div_Save Button' is clicked on
+
+2019-01-28 11:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/div_Save Button' is clicked on
+
+2019-01-28 11:41:10 - [TEST_STEP][NOT_RUN] - Thread.sleep(1000): NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:41:10 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/8_Physician Details/button_Next Page_5")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/button_Next Page_5' is clicked on
+
+2019-01-28 11:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/8_Physician Details/button_Next Page_5' is clicked on
+
+2019-01-28 11:41:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 11:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/label_Document Type"), STOP_ON_FAILURE): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/label_Document Type' is clicked on
+
+2019-01-28 11:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/label_Document Type' is clicked on
+
+2019-01-28 11:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/li_Birth Certificate"), STOP_ON_FAILURE): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/li_Birth Certificate' is clicked on
+
+2019-01-28 11:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/li_Birth Certificate' is clicked on
+
+2019-01-28 11:41:12 - [TEST_STEP][NOT_RUN] - Thread.sleep(5000): NOT_RUN: Thread.sleep(5000)
+
+2019-01-28 11:41:12 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(5000)
+
+2019-01-28 11:41:12 - [TEST_STEP][PASSED] - actions = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+2019-01-28 11:41:12 - [TEST_STEP][PASSED] - actions.moveToElement(findWebElement(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Choose File"), 30)): null
+
+2019-01-28 11:41:12 - [TEST_STEP][PASSED] - actions.sendKeys("C:\\Users\\mitali.p.shah\\Downloads\\Test.docx"): null
+
+2019-01-28 11:41:12 - [TEST_STEP][PASSED] - build().perform(): null
+
+2019-01-28 11:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Upload")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Upload' is clicked on
+
+2019-01-28 11:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Upload' is clicked on
+
+2019-01-28 11:41:15 - [TEST_STEP][NOT_RUN] - Thread.sleep(1000): NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:41:15 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(1000)
+
+2019-01-28 11:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/button_Next Page_6")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/button_Next Page_6' is clicked on
+
+2019-01-28 11:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/button_Next Page_6' is clicked on
+
+2019-01-28 11:41:15 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/input__fName"), "Applicant Name"): Text 'Applicant Name' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/input__fName'
+
+2019-01-28 11:41:16 - [MESSAGE][PASSED] - Text 'Applicant Name' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/input__fName'
+
+2019-01-28 11:41:16 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/input__lName"), "Applicant Last Name"): Text 'Applicant Last Name' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/input__lName'
+
+2019-01-28 11:41:17 - [MESSAGE][PASSED] - Text 'Applicant Last Name' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/input__lName'
+
+2019-01-28 11:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Application completed by")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Application completed by' is clicked on
+
+2019-01-28 11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Application completed by' is clicked on
+
+2019-01-28 11:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Method of Contact")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Method of Contact' is clicked on
+
+2019-01-28 11:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Method of Contact' is clicked on
+
+2019-01-28 11:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/input__pphoneNumber"), "2111111111"): Text '2111111111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/input__pphoneNumber'
+
+2019-01-28 11:41:18 - [MESSAGE][PASSED] - Text '2111111111' is set on object 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/input__pphoneNumber'
+
+2019-01-28 11:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/div_I certify")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/div_I certify' is clicked on
+
+2019-01-28 11:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/div_I certify' is clicked on
+
+2019-01-28 11:41:19 - [TEST_STEP][PASSED] - click(findTestObject("Submit Application/Page_Online Application for Intelle/10_Application Signature/button_Submit Application")): Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/button_Submit Application' is clicked on
+
+2019-01-28 11:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Submit Application/Page_Online Application for Intelle/10_Application Signature/button_Submit Application' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-28 11:39:41 - [TEST_SUITE][PASSED] - Submit App: Test Cases/Submit Application]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

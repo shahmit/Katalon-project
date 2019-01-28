@@ -1,0 +1,176 @@
+1
+00:00:00,933 --> 00:00:00,938
+1. openBrowser("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+2
+00:00:52,074 --> 00:00:52,078
+5. navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/")
+
+3
+00:00:52,088 --> 00:00:52,092
+9. maximizeWindow()
+
+4
+00:00:55,707 --> 00:00:55,709
+13. setText(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username"), "Test123")
+
+5
+00:00:55,944 --> 00:00:55,946
+17. setText(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password"), "Password123")
+
+6
+00:00:56,185 --> 00:00:56,187
+21. Thread.sleep(3000)
+
+7
+00:00:56,190 --> 00:00:56,193
+25. click(findTestObject("Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login"))
+
+8
+00:00:57,155 --> 00:00:57,157
+29. Thread.sleep(2000)
+
+9
+00:00:57,163 --> 00:00:57,167
+33. click(findTestObject("Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application"))
+
+10
+00:00:59,183 --> 00:00:59,185
+37. Thread.sleep(2000)
+
+11
+00:00:59,188 --> 00:00:59,190
+41. click(findTestObject("Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co"))
+
+12
+00:00:59,510 --> 00:00:59,512
+45. click(findTestObject("Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app"))
+
+13
+00:01:03,515 --> 00:01:03,519
+49. Thread.sleep(2000)
+
+14
+00:01:03,525 --> 00:01:03,530
+55. Start of General Page
+
+15
+00:01:04,284 --> 00:01:04,287
+59. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName"), "LastName")
+
+16
+00:01:04,826 --> 00:01:04,830
+63. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob"), "01/01/1990")
+
+17
+00:01:05,919 --> 00:01:05,921
+67. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender"))
+
+18
+00:01:06,579 --> 00:01:06,581
+71. Thread.sleep(2000)
+
+19
+00:01:06,584 --> 00:01:06,587
+75. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male"))
+
+20
+00:01:06,991 --> 00:01:06,996
+79. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus"))
+
+21
+00:01:07,514 --> 00:01:07,514
+83. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married"))
+
+22
+00:01:07,922 --> 00:01:07,924
+87. Thread.sleep(2000)
+
+23
+00:01:07,931 --> 00:01:07,934
+91. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race"))
+
+24
+00:01:08,474 --> 00:01:08,479
+95. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian"))
+
+25
+00:01:08,932 --> 00:01:08,935
+99. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic"))
+
+26
+00:01:09,336 --> 00:01:09,339
+103. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No"))
+
+27
+00:01:09,792 --> 00:01:09,794
+107. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN"), "800-10-0101")
+
+28
+00:01:10,305 --> 00:01:10,309
+111. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements"))
+
+29
+00:01:10,887 --> 00:01:10,889
+115. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen"))
+
+30
+00:01:11,324 --> 00:01:11,328
+119. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber"), "(111) 111-1111")
+
+31
+00:01:11,858 --> 00:01:11,860
+125. Enter Street Address
+
+32
+00:01:13,467 --> 00:01:13,468
+129. Thread.sleep(1000)
+
+33
+00:01:14,481 --> 00:01:14,485
+133. sendKeys(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr"), Keys.chord(ARROW_DOWN, ENTER))
+
+34
+00:01:15,037 --> 00:01:15,039
+137. Thread.sleep(1000)
+
+35
+00:01:15,045 --> 00:01:15,047
+141. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)"))
+
+36
+00:01:16,124 --> 00:01:16,129
+145. Thread.sleep(1000)
+
+37
+00:01:17,136 --> 00:01:17,139
+149. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)"))
+
+38
+00:01:17,531 --> 00:01:17,533
+153. Thread.sleep(1000)
+
+39
+00:01:18,538 --> 00:01:18,541
+157. click(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame"))
+
+40
+00:01:18,945 --> 00:01:18,948
+161. Thread.sleep(1000)
+
+41
+00:01:18,955 --> 00:01:18,959
+165. scrollToElement(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page"), 0)
+
+42
+00:01:19,036 --> 00:01:19,039
+171. End of General Information Page 1
+
+43
+00:01:19,626 --> 00:01:19,628
+177. Start of General info Page 2/2
+
+44
+00:01:20,631 --> 00:01:20,634
+181. setText(findTestObject("Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName"), "PrimaryName")
+

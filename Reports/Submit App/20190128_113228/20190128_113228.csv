@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Submit App,Firefox 64.0,,2019-01-28 11:39:41,2019-01-28 11:41:25,1m - 44.407s,PASSED
+,,,,,,
+Test Cases/Submit Application,Firefox 64.0,,2019-01-28 11:39:41,2019-01-28 11:41:22,1m - 40.522s,PASSED
+"openBrowser(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",Firefox 64.0,,2019-01-28 11:39:42,2019-01-28 11:40:28,45.840s,PASSED
+"navigateToUrl(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",Firefox 64.0,,2019-01-28 11:40:28,2019-01-28 11:40:28,0.023s,NOT_RUN
+maximizeWindow(),Firefox 64.0,,2019-01-28 11:40:28,2019-01-28 11:40:32,3.646s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username""), ""Test123"")",Firefox 64.0,,2019-01-28 11:40:32,2019-01-28 11:40:32,0.416s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password""), ""Password123"")",Firefox 64.0,,2019-01-28 11:40:32,2019-01-28 11:40:33,0.413s,PASSED
+Thread.sleep(3000),Firefox 64.0,,2019-01-28 11:40:33,2019-01-28 11:40:33,0.004s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login""))",Firefox 64.0,,2019-01-28 11:40:33,2019-01-28 11:40:34,1.261s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:40:34,2019-01-28 11:40:34,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application""))",Firefox 64.0,,2019-01-28 11:40:34,2019-01-28 11:40:36,1.756s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:40:36,2019-01-28 11:40:36,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co""))",Firefox 64.0,,2019-01-28 11:40:36,2019-01-28 11:40:36,0.386s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app""))",Firefox 64.0,,2019-01-28 11:40:36,2019-01-28 11:40:39,2.784s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:40:39,2019-01-28 11:40:39,0.017s,NOT_RUN
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__fName""), ""FirstName"")",Firefox 64.0,Start of General Page,2019-01-28 11:40:39,2019-01-28 11:40:39,0.466s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName""), ""LastName"")",Firefox 64.0,,2019-01-28 11:40:39,2019-01-28 11:40:40,0.352s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob""), ""01/01/1990"")",Firefox 64.0,,2019-01-28 11:40:40,2019-01-28 11:40:41,0.955s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender""))",Firefox 64.0,,2019-01-28 11:40:41,2019-01-28 11:40:41,0.476s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:40:41,2019-01-28 11:40:41,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male""))",Firefox 64.0,,2019-01-28 11:40:41,2019-01-28 11:40:42,0.457s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus""))",Firefox 64.0,,2019-01-28 11:40:42,2019-01-28 11:40:42,0.356s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married""))",Firefox 64.0,,2019-01-28 11:40:42,2019-01-28 11:40:43,0.430s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:40:43,2019-01-28 11:40:43,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race""))",Firefox 64.0,,2019-01-28 11:40:43,2019-01-28 11:40:43,0.454s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian""))",Firefox 64.0,,2019-01-28 11:40:43,2019-01-28 11:40:43,0.388s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic""))",Firefox 64.0,,2019-01-28 11:40:43,2019-01-28 11:40:44,0.330s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No""))",Firefox 64.0,,2019-01-28 11:40:44,2019-01-28 11:40:44,0.300s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN""), ""800-10-0101"")",Firefox 64.0,,2019-01-28 11:40:44,2019-01-28 11:40:44,0.237s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements""))",Firefox 64.0,,2019-01-28 11:40:44,2019-01-28 11:40:45,0.402s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen""))",Firefox 64.0,,2019-01-28 11:40:45,2019-01-28 11:40:45,0.291s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber""), ""(111) 111-1111"")",Firefox 64.0,,2019-01-28 11:40:45,2019-01-28 11:40:45,0.248s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr""), ""3 Ravinia Dr, At"")",Firefox 64.0,Enter Street Address,2019-01-28 11:40:45,2019-01-28 11:40:46,0.592s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:46,2019-01-28 11:40:47,1.015s,PASSED
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr""), Keys.chord(ARROW_DOWN, ENTER))",Firefox 64.0,,2019-01-28 11:40:47,2019-01-28 11:40:47,0.408s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:47,2019-01-28 11:40:47,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)""))",Firefox 64.0,,2019-01-28 11:40:47,2019-01-28 11:40:48,0.427s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:48,2019-01-28 11:40:49,1.003s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)""))",Firefox 64.0,,2019-01-28 11:40:49,2019-01-28 11:40:49,0.281s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:49,2019-01-28 11:40:50,1.005s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame""))",Firefox 64.0,,2019-01-28 11:40:50,2019-01-28 11:40:50,0.371s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:50,2019-01-28 11:40:50,0.003s,NOT_RUN
+"scrollToElement(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page""), 0)",Firefox 64.0,,2019-01-28 11:40:50,2019-01-28 11:40:50,0.046s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page""))",Firefox 64.0,End of General Information Page 1,2019-01-28 11:40:50,2019-01-28 11:40:51,0.367s,PASSED
+Thread.sleep(1000),Firefox 64.0,Start of General info Page 2/2,2019-01-28 11:40:51,2019-01-28 11:40:52,1.003s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName""), ""PrimaryName"")",Firefox 64.0,,2019-01-28 11:40:52,2019-01-28 11:40:52,0.370s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pLName""), ""PrimaryLastName"")",Firefox 64.0,,2019-01-28 11:40:52,2019-01-28 11:40:53,0.562s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship""))",Firefox 64.0,,2019-01-28 11:40:53,2019-01-28 11:40:53,0.324s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:53,2019-01-28 11:40:54,1.005s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/span_Case Worker""), STOP_ON_FAILURE)",Firefox 64.0,,2019-01-28 11:40:54,2019-01-28 11:40:54,0.379s,PASSED
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Firefox 64.0,,2019-01-28 11:40:54,2019-01-28 11:40:54,0.006s,NOT_RUN
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pAge""), ""30"")",Firefox 64.0,,2019-01-28 11:40:54,2019-01-28 11:40:55,0.274s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__ppphoneNumber""), ""2111111111"")",Firefox 64.0,,2019-01-28 11:40:55,2019-01-28 11:40:55,0.673s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/div_Check here if the primary""))",Firefox 64.0,,2019-01-28 11:40:55,2019-01-28 11:40:56,0.583s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:56,2019-01-28 11:40:57,1.006s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/button_Next Page""))",Firefox 64.0,,2019-01-28 11:40:57,2019-01-28 11:40:57,0.376s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/label_Select""))",Firefox 64.0,Start of Legal Status and Guardian Page,2019-01-28 11:40:57,2019-01-28 11:40:58,0.456s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/Span in the dropdown""))",Firefox 64.0,,2019-01-28 11:40:58,2019-01-28 11:40:58,0.429s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:58,2019-01-28 11:40:58,0.007s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/button_Next Page_2""))",Firefox 64.0,End of Legal Status and Guardian Page,2019-01-28 11:40:58,2019-01-28 11:40:59,0.345s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:59,2019-01-28 11:40:59,0.014s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select""))",Firefox 64.0,,2019-01-28 11:40:59,2019-01-28 11:40:59,0.353s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value""))",Firefox 64.0,,2019-01-28 11:40:59,2019-01-28 11:40:59,0.349s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:40:59,2019-01-28 11:40:59,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/No- other than English""))",Firefox 64.0,,2019-01-28 11:40:59,2019-01-28 11:41:00,0.355s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/Communicated Verbally""))",Firefox 64.0,,2019-01-28 11:41:00,2019-01-28 11:41:00,0.387s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Preferred Mode of Communication""))",Firefox 64.0,,2019-01-28 11:41:00,2019-01-28 11:41:01,0.589s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:41:01,2019-01-28 11:41:01,0.007s,NOT_RUN
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Firefox 64.0,Add Send Keys here,2019-01-28 11:41:01,2019-01-28 11:41:01,0.007s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication""), STOP_ON_FAILURE)",Firefox 64.0,,2019-01-28 11:41:01,2019-01-28 11:41:01,0.560s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf""))",Firefox 64.0,,2019-01-28 11:41:01,2019-01-28 11:41:02,0.407s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf- 2nd radio""))",Firefox 64.0,,2019-01-28 11:41:02,2019-01-28 11:41:02,0.453s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 1""))",Firefox 64.0,,2019-01-28 11:41:02,2019-01-28 11:41:02,0.422s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 2""))",Firefox 64.0,,2019-01-28 11:41:02,2019-01-28 11:41:03,0.402s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/button_Next Page_3""))",Firefox 64.0,"End of Communication, Hearing and Vision",2019-01-28 11:41:03,2019-01-28 11:41:03,0.397s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:41:03,2019-01-28 11:41:03,0.007s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input_No_iddConfirmed""))",Firefox 64.0,"Start of IDD Diagonosis, Resources & Referrals",2019-01-28 11:41:03,2019-01-28 11:41:04,0.467s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Choose""))",Firefox 64.0,,2019-01-28 11:41:04,2019-01-28 11:41:04,0.499s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Access_Crisis Line""))",Firefox 64.0,,2019-01-28 11:41:04,2019-01-28 11:41:05,0.373s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Current Resource Selection""))",Firefox 64.0,,2019-01-28 11:41:05,2019-01-28 11:41:05,0.425s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Adoption Assistance""))",Firefox 64.0,,2019-01-28 11:41:05,2019-01-28 11:41:05,0.439s,PASSED
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input__pReferral Income""), ""50000"")",Firefox 64.0,,2019-01-28 11:41:05,2019-01-28 11:41:06,0.268s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/button_Next Page_4""))",Firefox 64.0,"End of Page IDD Diagonosis, Resources and Referrals",2019-01-28 11:41:06,2019-01-28 11:41:06,0.419s,PASSED
+Thread.sleep(2000),Firefox 64.0,Start of Physician Page,2019-01-28 11:41:06,2019-01-28 11:41:06,0.004s,NOT_RUN
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhysician Name""), ""Hopkins"")",Firefox 64.0,,2019-01-28 11:41:06,2019-01-28 11:41:07,0.459s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pCity""), ""Fort Smith"")",Firefox 64.0,,2019-01-28 11:41:07,2019-01-28 11:41:07,0.564s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/label_Enter State""))",Firefox 64.0,,2019-01-28 11:41:07,2019-01-28 11:41:08,0.690s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:41:08,2019-01-28 11:41:08,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/Span_State - Arkansas""))",Firefox 64.0,,2019-01-28 11:41:08,2019-01-28 11:41:08,0.419s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pZip code""), ""30346"")",Firefox 64.0,,2019-01-28 11:41:08,2019-01-28 11:41:09,0.318s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhone Number""), ""2111111111"")",Firefox 64.0,,2019-01-28 11:41:09,2019-01-28 11:41:09,0.389s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/div_Save Button""))",Firefox 64.0,,2019-01-28 11:41:09,2019-01-28 11:41:10,0.883s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:41:10,2019-01-28 11:41:10,0.004s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/button_Next Page_5""))",Firefox 64.0,End of Physician Page,2019-01-28 11:41:10,2019-01-28 11:41:10,0.500s,PASSED
+Thread.sleep(1000),Firefox 64.0,Start of Application Supporting Document,2019-01-28 11:41:10,2019-01-28 11:41:11,1.005s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/label_Document Type""), STOP_ON_FAILURE)",Firefox 64.0,,2019-01-28 11:41:11,2019-01-28 11:41:12,0.499s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/li_Birth Certificate""), STOP_ON_FAILURE)",Firefox 64.0,,2019-01-28 11:41:12,2019-01-28 11:41:12,0.445s,PASSED
+Thread.sleep(5000),Firefox 64.0,,2019-01-28 11:41:12,2019-01-28 11:41:12,0.004s,NOT_RUN
+actions = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()),Firefox 64.0,,2019-01-28 11:41:12,2019-01-28 11:41:12,0.041s,PASSED
+"actions.moveToElement(findWebElement(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Choose File""), 30))",Firefox 64.0,,2019-01-28 11:41:12,2019-01-28 11:41:12,0.069s,PASSED
+"actions.sendKeys(""C:\\Users\\mitali.p.shah\\Downloads\\Test.docx"")",Firefox 64.0,,2019-01-28 11:41:12,2019-01-28 11:41:12,0.010s,PASSED
+build().perform(),Firefox 64.0,,2019-01-28 11:41:12,2019-01-28 11:41:14,1.245s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Upload""))",Firefox 64.0,,2019-01-28 11:41:14,2019-01-28 11:41:15,0.811s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:41:15,2019-01-28 11:41:15,0.004s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/button_Next Page_6""))",Firefox 64.0,End of Application Supporting Documents,2019-01-28 11:41:15,2019-01-28 11:41:15,0.377s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/input__fName""), ""Applicant Name"")",Firefox 64.0,,2019-01-28 11:41:15,2019-01-28 11:41:16,0.806s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/input__lName""), ""Applicant Last Name"")",Firefox 64.0,,2019-01-28 11:41:16,2019-01-28 11:41:17,1.100s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Application completed by""))",Firefox 64.0,,2019-01-28 11:41:17,2019-01-28 11:41:17,0.551s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Method of Contact""))",Firefox 64.0,,2019-01-28 11:41:17,2019-01-28 11:41:18,0.514s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/input__pphoneNumber""), ""2111111111"")",Firefox 64.0,,2019-01-28 11:41:18,2019-01-28 11:41:18,0.496s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/div_I certify""))",Firefox 64.0,,2019-01-28 11:41:18,2019-01-28 11:41:19,0.398s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/button_Submit Application""))",Firefox 64.0,,2019-01-28 11:41:19,2019-01-28 11:41:20,0.832s,PASSED

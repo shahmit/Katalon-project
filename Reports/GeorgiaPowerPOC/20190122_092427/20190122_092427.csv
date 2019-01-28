@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GeorgiaPowerPOC,Firefox 64.0,,2019-01-22 09:24:30,2019-01-22 09:24:51,21.111s,FAILED
+,,,,,,
+Test Cases/CreateUser,Firefox 64.0,"This test creates new user for the site-
+https://iddtrain.georgiacollaborative.com/IDDPortal/",2019-01-22 09:24:30,2019-01-22 09:24:49,19.306s,FAILED
+"openBrowser("""")",Firefox 64.0,,2019-01-22 09:24:30,2019-01-22 09:24:37,6.454s,PASSED
+"navigateToUrl(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",Firefox 64.0,,2019-01-22 09:24:37,2019-01-22 09:24:41,4.122s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-01-22 09:24:41,2019-01-22 09:24:45,3.573s,PASSED
+"click(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here""))",Firefox 64.0,,2019-01-22 09:24:45,2019-01-22 09:24:45,0.385s,PASSED
+"setText(findTestObject(""GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname""), ""Test"")",Firefox 64.0,,2019-01-22 09:24:45,2019-01-22 09:24:45,0.484s,PASSED
+"setText(findTestObject(""GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname""), ""Tests"")",Firefox 64.0,,2019-01-22 09:24:45,2019-01-22 09:24:46,0.268s,PASSED
+"setText(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username""), ""TestTests1"")",Firefox 64.0,,2019-01-22 09:24:46,2019-01-22 09:24:46,0.226s,PASSED
+"setText(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password""), ""Password123"")",Firefox 64.0,,2019-01-22 09:24:46,2019-01-22 09:24:46,0.233s,PASSED
+"setText(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword""), ""Password123"")",Firefox 64.0,,2019-01-22 09:24:46,2019-01-22 09:24:46,0.231s,PASSED
+"setText(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email""), ""test@tests.com"")",Firefox 64.0,,2019-01-22 09:24:46,2019-01-22 09:24:47,0.163s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --""), ""14: 7"", true)",Firefox 64.0,,2019-01-22 09:24:47,2019-01-22 09:24:47,0.609s,PASSED
+"setText(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1""), ""Mumbai"")",Firefox 64.0,,2019-01-22 09:24:47,2019-01-22 09:24:47,0.161s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1""), ""12: 3"", true)",Firefox 64.0,,2019-01-22 09:24:47,2019-01-22 09:24:48,0.505s,PASSED
+"setText(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2""), ""Homeland Security"")",Firefox 64.0,,2019-01-22 09:24:48,2019-01-22 09:24:48,0.094s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2""), ""13: 4"", true)",Firefox 64.0,,2019-01-22 09:24:48,2019-01-22 09:24:48,0.495s,PASSED
+"setText(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3""), ""Yellow"")",Firefox 64.0,,2019-01-22 09:24:48,2019-01-22 09:24:49,0.068s,PASSED
+"click(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang""))",Firefox 64.0,,2019-01-22 09:24:49,2019-01-22 09:24:49,0.262s,PASSED
+"click(findTestObject(""Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue""))",Firefox 64.0,,2019-01-22 09:24:49,2019-01-22 09:24:49,0.412s,PASSED
+"verifyElementPresent(findTestObject(""Page_Online Application for Intelle/h2_Welcome                Test""), 0)",Firefox 64.0,,2019-01-22 09:24:49,2019-01-22 09:24:49,0.155s,FAILED

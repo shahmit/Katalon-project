@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CreatesAUser,Firefox 64.0,,2019-01-28 12:15:36,2019-01-28 12:18:23,2m - 47.618s,PASSED
+,,,,,,
+Test Cases/CreateUser,Firefox 64.0,"This test creates new user for the site-
+https://iddtrain.georgiacollaborative.com/IDDPortal/",2019-01-28 12:15:36,2019-01-28 12:18:23,2m - 47.252s,PASSED
+"for ([row = 1, row <= findTestData(""TestData"").getRowNumbers(), (row++)])",Firefox 64.0,,2019-01-28 12:15:37,2019-01-28 12:18:21,2m - 44.071s,PASSED

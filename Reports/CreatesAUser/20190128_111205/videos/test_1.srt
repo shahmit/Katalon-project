@@ -1,0 +1,8 @@
+1
+00:00:02,061 --> 00:00:02,068
+1. for ([row = 1, row <= findTestData("TestData").getRowNumbers(), (row++)])
+
+2
+00:00:09,005 --> 00:00:09,007
+1. openBrowser("")
+

@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Submit App,Chrome 71.0.3578.98,,2019-01-28 12:18:27,2019-01-28 12:19:46,1m - 18.731s,PASSED
+,,,,,,
+Test Cases/Submit Application,Chrome 71.0.3578.98,,2019-01-28 12:18:27,2019-01-28 12:19:45,1m - 17.347s,PASSED
+"openBrowser(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",Chrome 71.0.3578.98,,2019-01-28 12:18:29,2019-01-28 12:19:07,38.040s,PASSED
+"navigateToUrl(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",Chrome 71.0.3578.98,,2019-01-28 12:19:07,2019-01-28 12:19:07,0.018s,NOT_RUN
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-28 12:19:07,2019-01-28 12:19:08,1.357s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username""), ""Test123"")",Chrome 71.0.3578.98,,2019-01-28 12:19:08,2019-01-28 12:19:09,0.612s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password""), ""Password123"")",Chrome 71.0.3578.98,,2019-01-28 12:19:09,2019-01-28 12:19:09,0.669s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-28 12:19:09,2019-01-28 12:19:09,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login""))",Chrome 71.0.3578.98,,2019-01-28 12:19:09,2019-01-28 12:19:10,0.206s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:10,2019-01-28 12:19:10,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application""))",Chrome 71.0.3578.98,,2019-01-28 12:19:10,2019-01-28 12:19:11,1.026s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:11,2019-01-28 12:19:11,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co""))",Chrome 71.0.3578.98,,2019-01-28 12:19:11,2019-01-28 12:19:11,0.445s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app""))",Chrome 71.0.3578.98,,2019-01-28 12:19:11,2019-01-28 12:19:13,1.448s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:13,2019-01-28 12:19:13,0.008s,NOT_RUN
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__fName""), ""FirstName"")",Chrome 71.0.3578.98,Start of General Page,2019-01-28 12:19:13,2019-01-28 12:19:13,0.533s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName""), ""LastName"")",Chrome 71.0.3578.98,,2019-01-28 12:19:13,2019-01-28 12:19:13,0.392s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob""), ""01/01/1990"")",Chrome 71.0.3578.98,,2019-01-28 12:19:13,2019-01-28 12:19:14,0.804s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender""))",Chrome 71.0.3578.98,,2019-01-28 12:19:14,2019-01-28 12:19:15,0.241s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:15,2019-01-28 12:19:15,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male""))",Chrome 71.0.3578.98,,2019-01-28 12:19:15,2019-01-28 12:19:15,0.279s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus""))",Chrome 71.0.3578.98,,2019-01-28 12:19:15,2019-01-28 12:19:15,0.296s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married""))",Chrome 71.0.3578.98,,2019-01-28 12:19:15,2019-01-28 12:19:15,0.245s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:15,2019-01-28 12:19:15,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race""))",Chrome 71.0.3578.98,,2019-01-28 12:19:15,2019-01-28 12:19:16,0.273s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian""))",Chrome 71.0.3578.98,,2019-01-28 12:19:16,2019-01-28 12:19:16,0.351s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic""))",Chrome 71.0.3578.98,,2019-01-28 12:19:16,2019-01-28 12:19:16,0.389s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No""))",Chrome 71.0.3578.98,,2019-01-28 12:19:16,2019-01-28 12:19:17,0.280s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN""), ""800-10-0101"")",Chrome 71.0.3578.98,,2019-01-28 12:19:17,2019-01-28 12:19:17,0.610s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements""))",Chrome 71.0.3578.98,,2019-01-28 12:19:17,2019-01-28 12:19:18,0.309s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen""))",Chrome 71.0.3578.98,,2019-01-28 12:19:18,2019-01-28 12:19:18,0.278s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber""), ""(111) 111-1111"")",Chrome 71.0.3578.98,,2019-01-28 12:19:18,2019-01-28 12:19:19,0.783s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr""), ""3 Ravinia Dr, At"")",Chrome 71.0.3578.98,Enter Street Address,2019-01-28 12:19:19,2019-01-28 12:19:20,1.237s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:20,2019-01-28 12:19:21,1.022s,PASSED
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 71.0.3578.98,,2019-01-28 12:19:21,2019-01-28 12:19:21,0.182s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:21,2019-01-28 12:19:21,0.003s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)""))",Chrome 71.0.3578.98,,2019-01-28 12:19:21,2019-01-28 12:19:21,0.189s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:21,2019-01-28 12:19:22,1.006s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)""))",Chrome 71.0.3578.98,,2019-01-28 12:19:22,2019-01-28 12:19:22,0.130s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:22,2019-01-28 12:19:23,1.002s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame""))",Chrome 71.0.3578.98,,2019-01-28 12:19:23,2019-01-28 12:19:24,0.161s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:24,2019-01-28 12:19:24,0.008s,NOT_RUN
+"scrollToElement(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page""), 0)",Chrome 71.0.3578.98,,2019-01-28 12:19:24,2019-01-28 12:19:24,0.072s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page""))",Chrome 71.0.3578.98,End of General Information Page 1,2019-01-28 12:19:24,2019-01-28 12:19:24,0.215s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,Start of General info Page 2/2,2019-01-28 12:19:24,2019-01-28 12:19:25,1.005s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName""), ""PrimaryName"")",Chrome 71.0.3578.98,,2019-01-28 12:19:25,2019-01-28 12:19:25,0.410s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pLName""), ""PrimaryLastName"")",Chrome 71.0.3578.98,,2019-01-28 12:19:25,2019-01-28 12:19:26,0.529s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship""))",Chrome 71.0.3578.98,,2019-01-28 12:19:26,2019-01-28 12:19:26,0.187s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:26,2019-01-28 12:19:27,1.005s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/span_Case Worker""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:19:27,2019-01-28 12:19:27,0.251s,PASSED
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/label_Enter Relationship""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 71.0.3578.98,,2019-01-28 12:19:27,2019-01-28 12:19:27,0.006s,NOT_RUN
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pAge""), ""30"")",Chrome 71.0.3578.98,,2019-01-28 12:19:27,2019-01-28 12:19:28,0.295s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__ppphoneNumber""), ""2111111111"")",Chrome 71.0.3578.98,,2019-01-28 12:19:28,2019-01-28 12:19:28,0.424s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/div_Check here if the primary""))",Chrome 71.0.3578.98,,2019-01-28 12:19:28,2019-01-28 12:19:28,0.227s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:28,2019-01-28 12:19:29,1.004s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/button_Next Page""))",Chrome 71.0.3578.98,,2019-01-28 12:19:29,2019-01-28 12:19:29,0.161s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/label_Select""))",Chrome 71.0.3578.98,Start of Legal Status and Guardian Page,2019-01-28 12:19:29,2019-01-28 12:19:30,0.142s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/Span in the dropdown""))",Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:30,0.217s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:30,0.008s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/5_Legal Status and Guardian/button_Next Page_2""))",Chrome 71.0.3578.98,End of Legal Status and Guardian Page,2019-01-28 12:19:30,2019-01-28 12:19:30,0.181s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:30,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select""))",Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:30,0.156s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value""))",Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:30,0.212s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:30,0.007s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/No- other than English""))",Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:30,0.171s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/Communicated Verbally""))",Chrome 71.0.3578.98,,2019-01-28 12:19:30,2019-01-28 12:19:31,0.130s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Preferred Mode of Communication""))",Chrome 71.0.3578.98,,2019-01-28 12:19:31,2019-01-28 12:19:31,0.189s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:31,2019-01-28 12:19:31,0.006s,NOT_RUN
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 71.0.3578.98,Add Send Keys here,2019-01-28 12:19:31,2019-01-28 12:19:31,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/label_Select - Value - Preferred Mode of Communication""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:19:31,2019-01-28 12:19:31,0.234s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf""))",Chrome 71.0.3578.98,,2019-01-28 12:19:31,2019-01-28 12:19:31,0.333s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_applicantdeaf- 2nd radio""))",Chrome 71.0.3578.98,,2019-01-28 12:19:31,2019-01-28 12:19:32,0.213s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 1""))",Chrome 71.0.3578.98,,2019-01-28 12:19:32,2019-01-28 12:19:32,0.208s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/input_No_Vision Radio 2""))",Chrome 71.0.3578.98,,2019-01-28 12:19:32,2019-01-28 12:19:32,0.208s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/6_Page_Communication, Hearing and Vision/button_Next Page_3""))",Chrome 71.0.3578.98,"End of Communication, Hearing and Vision",2019-01-28 12:19:32,2019-01-28 12:19:32,0.302s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:32,2019-01-28 12:19:32,0.006s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input_No_iddConfirmed""))",Chrome 71.0.3578.98,"Start of IDD Diagonosis, Resources & Referrals",2019-01-28 12:19:32,2019-01-28 12:19:33,0.231s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Choose""))",Chrome 71.0.3578.98,,2019-01-28 12:19:33,2019-01-28 12:19:33,0.584s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Access_Crisis Line""))",Chrome 71.0.3578.98,,2019-01-28 12:19:33,2019-01-28 12:19:33,0.325s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/div_Current Resource Selection""))",Chrome 71.0.3578.98,,2019-01-28 12:19:33,2019-01-28 12:19:34,0.279s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/Label_Adoption Assistance""))",Chrome 71.0.3578.98,,2019-01-28 12:19:34,2019-01-28 12:19:34,0.388s,PASSED
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/input__pReferral Income""), ""50000"")",Chrome 71.0.3578.98,,2019-01-28 12:19:34,2019-01-28 12:19:34,0.268s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/7_Page_IDD Diagonosis Resources and Referrals/button_Next Page_4""))",Chrome 71.0.3578.98,"End of Page IDD Diagonosis, Resources and Referrals",2019-01-28 12:19:34,2019-01-28 12:19:35,0.160s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,Start of Physician Page,2019-01-28 12:19:35,2019-01-28 12:19:35,0.005s,NOT_RUN
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhysician Name""), ""Hopkins"")",Chrome 71.0.3578.98,,2019-01-28 12:19:35,2019-01-28 12:19:35,0.357s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pCity""), ""Fort Smith"")",Chrome 71.0.3578.98,,2019-01-28 12:19:35,2019-01-28 12:19:35,0.442s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/label_Enter State""))",Chrome 71.0.3578.98,,2019-01-28 12:19:35,2019-01-28 12:19:36,0.201s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-28 12:19:36,2019-01-28 12:19:36,0.003s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/Span_State - Arkansas""))",Chrome 71.0.3578.98,,2019-01-28 12:19:36,2019-01-28 12:19:36,0.231s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pZip code""), ""30346"")",Chrome 71.0.3578.98,,2019-01-28 12:19:36,2019-01-28 12:19:36,0.334s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/input__pPhone Number""), ""2111111111"")",Chrome 71.0.3578.98,,2019-01-28 12:19:36,2019-01-28 12:19:37,0.501s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/div_Save Button""))",Chrome 71.0.3578.98,,2019-01-28 12:19:37,2019-01-28 12:19:37,0.188s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:37,2019-01-28 12:19:37,0.011s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/8_Physician Details/button_Next Page_5""))",Chrome 71.0.3578.98,End of Physician Page,2019-01-28 12:19:37,2019-01-28 12:19:37,0.399s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,Start of Application Supporting Document,2019-01-28 12:19:37,2019-01-28 12:19:38,1.006s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/label_Document Type""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:19:38,2019-01-28 12:19:38,0.205s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/li_Birth Certificate""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-28 12:19:38,2019-01-28 12:19:39,0.159s,PASSED
+Thread.sleep(5000),Chrome 71.0.3578.98,,2019-01-28 12:19:39,2019-01-28 12:19:39,0.004s,NOT_RUN
+actions = new org.openqa.selenium.interactions.Actions(com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()),Chrome 71.0.3578.98,,2019-01-28 12:19:39,2019-01-28 12:19:39,0.037s,PASSED
+"actions.moveToElement(findWebElement(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Choose File""), 30))",Chrome 71.0.3578.98,,2019-01-28 12:19:39,2019-01-28 12:19:39,0.067s,PASSED
+"actions.sendKeys(""C:\\Users\\mitali.p.shah\\Downloads\\Test.docx"")",Chrome 71.0.3578.98,,2019-01-28 12:19:39,2019-01-28 12:19:39,0.012s,PASSED
+build().perform(),Chrome 71.0.3578.98,,2019-01-28 12:19:39,2019-01-28 12:19:40,0.785s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/div_Upload""))",Chrome 71.0.3578.98,,2019-01-28 12:19:40,2019-01-28 12:19:40,0.122s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-28 12:19:40,2019-01-28 12:19:40,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/9_Application Supporting Documents/button_Next Page_6""))",Chrome 71.0.3578.98,End of Application Supporting Documents,2019-01-28 12:19:40,2019-01-28 12:19:40,0.267s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/input__fName""), ""Applicant Name"")",Chrome 71.0.3578.98,,2019-01-28 12:19:40,2019-01-28 12:19:40,0.537s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/input__lName""), ""Applicant Last Name"")",Chrome 71.0.3578.98,,2019-01-28 12:19:40,2019-01-28 12:19:41,0.704s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Application completed by""))",Chrome 71.0.3578.98,,2019-01-28 12:19:41,2019-01-28 12:19:41,0.247s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/label_Method of Contact""))",Chrome 71.0.3578.98,,2019-01-28 12:19:41,2019-01-28 12:19:42,0.387s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/input__pphoneNumber""), ""2111111111"")",Chrome 71.0.3578.98,,2019-01-28 12:19:42,2019-01-28 12:19:42,0.423s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/div_I certify""))",Chrome 71.0.3578.98,,2019-01-28 12:19:42,2019-01-28 12:19:42,0.201s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/10_Application Signature/button_Submit Application""))",Chrome 71.0.3578.98,,2019-01-28 12:19:42,2019-01-28 12:19:43,0.135s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GeorgiaPowerPOC,,,2019-01-22 12:39:05,2019-01-22 12:41:10,2m - 4.472s,FAILED
+,,,,,,
+Test Cases/CreateUser,,"This test creates new user for the site-
+https://iddtrain.georgiacollaborative.com/IDDPortal/",2019-01-22 12:39:06,2019-01-22 12:40:09,1m - 3.538s,FAILED
+"for ([row = 1, row <= findTestData(""TestData"").getRowNumbers(), (row++)])",,,2019-01-22 12:39:06,2019-01-22 12:40:09,1m - 2.798s,FAILED

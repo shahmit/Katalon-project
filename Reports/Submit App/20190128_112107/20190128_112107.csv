@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Submit App,Firefox 64.0,,2019-01-28 11:21:13,2019-01-28 11:22:39,1m - 26.084s,FAILED
+,,,,,,
+Test Cases/Submit Application,Firefox 64.0,,2019-01-28 11:21:14,2019-01-28 11:22:37,1m - 23.646s,FAILED
+"openBrowser(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",Firefox 64.0,,2019-01-28 11:21:15,2019-01-28 11:22:06,51.138s,PASSED
+"navigateToUrl(""https://iddtrain.georgiacollaborative.com/IDDPortal/"")",Firefox 64.0,,2019-01-28 11:22:06,2019-01-28 11:22:06,0.013s,NOT_RUN
+maximizeWindow(),Firefox 64.0,,2019-01-28 11:22:06,2019-01-28 11:22:10,3.617s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__username""), ""Test123"")",Firefox 64.0,,2019-01-28 11:22:10,2019-01-28 11:22:10,0.236s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/input__password""), ""Password123"")",Firefox 64.0,,2019-01-28 11:22:10,2019-01-28 11:22:10,0.240s,PASSED
+Thread.sleep(3000),Firefox 64.0,,2019-01-28 11:22:10,2019-01-28 11:22:10,0.004s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/1_Page_HomePage to Login/button_Login""))",Firefox 64.0,,2019-01-28 11:22:10,2019-01-28 11:22:11,0.963s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:22:11,2019-01-28 11:22:11,0.009s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/2_Page_Welcome/b_Submit a New Application""))",Firefox 64.0,,2019-01-28 11:22:11,2019-01-28 11:22:13,2.017s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:22:13,2019-01-28 11:22:13,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/div_httpsgadbhdd.policystat.co""))",Firefox 64.0,,2019-01-28 11:22:13,2019-01-28 11:22:14,0.322s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/3_Page_TermsAndConditions/button_Proceed with online app""))",Firefox 64.0,,2019-01-28 11:22:14,2019-01-28 11:22:18,4.004s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:22:18,2019-01-28 11:22:18,0.008s,NOT_RUN
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__fName""), ""FirstName"")",Firefox 64.0,Start of General Page,2019-01-28 11:22:18,2019-01-28 11:22:19,0.757s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__lName""), ""LastName"")",Firefox 64.0,,2019-01-28 11:22:19,2019-01-28 11:22:19,0.542s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__dob""), ""01/01/1990"")",Firefox 64.0,,2019-01-28 11:22:19,2019-01-28 11:22:20,1.091s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Gender""))",Firefox 64.0,,2019-01-28 11:22:20,2019-01-28 11:22:21,0.659s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:22:21,2019-01-28 11:22:21,0.005s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Male""))",Firefox 64.0,,2019-01-28 11:22:21,2019-01-28 11:22:21,0.406s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_MaritalStatus""))",Firefox 64.0,,2019-01-28 11:22:21,2019-01-28 11:22:22,0.521s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Married""))",Firefox 64.0,,2019-01-28 11:22:22,2019-01-28 11:22:22,0.409s,PASSED
+Thread.sleep(2000),Firefox 64.0,,2019-01-28 11:22:22,2019-01-28 11:22:22,0.008s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Race""))",Firefox 64.0,,2019-01-28 11:22:22,2019-01-28 11:22:23,0.541s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_WhiteCaucasian""))",Firefox 64.0,,2019-01-28 11:22:23,2019-01-28 11:22:23,0.459s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_Hispanic""))",Firefox 64.0,,2019-01-28 11:22:23,2019-01-28 11:22:24,0.403s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_No""))",Firefox 64.0,,2019-01-28 11:22:24,2019-01-28 11:22:24,0.455s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__SSN""), ""800-10-0101"")",Firefox 64.0,,2019-01-28 11:22:24,2019-01-28 11:22:25,0.513s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/label_Select_CurrentLivingArrangements""))",Firefox 64.0,,2019-01-28 11:22:25,2019-01-28 11:22:25,0.580s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/li_Community living arrangemen""))",Firefox 64.0,,2019-01-28 11:22:25,2019-01-28 11:22:26,0.437s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__pphoneNumber""), ""(111) 111-1111"")",Firefox 64.0,,2019-01-28 11:22:26,2019-01-28 11:22:26,0.533s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr""), ""3 Ravinia Dr, At"")",Firefox 64.0,Enter Street Address,2019-01-28 11:22:26,2019-01-28 11:22:28,1.608s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:22:28,2019-01-28 11:22:29,1.013s,PASSED
+"sendKeys(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input__generalStreetPrimary_pr""), Keys.chord(ARROW_DOWN, ENTER))",Firefox 64.0,,2019-01-28 11:22:29,2019-01-28 11:22:29,0.554s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:22:29,2019-01-28 11:22:29,0.008s,NOT_RUN
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_Yes_law (1)""))",Firefox 64.0,,2019-01-28 11:22:29,2019-01-28 11:22:30,1.078s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:22:30,2019-01-28 11:22:31,1.008s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/input_No_veteran (1)""))",Firefox 64.0,,2019-01-28 11:22:31,2019-01-28 11:22:32,0.393s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:22:32,2019-01-28 11:22:33,1.007s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/CheckhereifMailingAddressisSame""))",Firefox 64.0,,2019-01-28 11:22:33,2019-01-28 11:22:33,0.405s,PASSED
+Thread.sleep(1000),Firefox 64.0,,2019-01-28 11:22:33,2019-01-28 11:22:33,0.009s,NOT_RUN
+"scrollToElement(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page""), 0)",Firefox 64.0,,2019-01-28 11:22:33,2019-01-28 11:22:33,0.079s,PASSED
+"click(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 1/button_Next Page""))",Firefox 64.0,End of General Information Page 1,2019-01-28 11:22:33,2019-01-28 11:22:34,0.589s,PASSED
+Thread.sleep(1000),Firefox 64.0,Start of General info Page 2/2,2019-01-28 11:22:34,2019-01-28 11:22:35,1.005s,PASSED
+"setText(findTestObject(""Submit Application/Page_Online Application for Intelle/4_Page_GeneralInformation/General info Page 2/input__pFName""), ""PrimaryName"")",Firefox 64.0,,2019-01-28 11:22:35,2019-01-28 11:22:35,0.400s,FAILED

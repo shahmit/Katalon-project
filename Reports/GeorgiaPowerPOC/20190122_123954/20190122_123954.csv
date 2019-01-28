@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GeorgiaPowerPOC,Chrome 71.0.3578.98,,2019-01-22 12:39:56,2019-01-22 12:40:33,37.080s,PASSED
+,,,,,,
+Test Cases/CreateUser,Chrome 71.0.3578.98,"This test creates new user for the site-
+https://iddtrain.georgiacollaborative.com/IDDPortal/",2019-01-22 12:39:57,2019-01-22 12:40:33,36.657s,PASSED
+"for ([row = 1, row <= findTestData(""TestData"").getRowNumbers(), (row++)])",Chrome 71.0.3578.98,,2019-01-22 12:39:58,2019-01-22 12:40:33,35.828s,PASSED

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreatesAUser" time="186" tests="1" failures="0" errors="0">
+   <testsuite name="CreatesAUser" tests="1" failures="0" errors="0" time="186" timestamp="2019-01-28 11:34:59" hostname="mitali.p.shah - CPX-SJJHSRSSIFU.dir.svc.accenture.com" id="Test Suites/CreatesAUser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mitali.p.shah\\Katalon Studio\\POCGeorgiaPower\\Reports\\CreatesAUser\\20190128_113227"/>
+         <property name="logFiles" value="C:\\Users\\mitali.p.shah\\Katalon Studio\\POCGeorgiaPower\\Reports\\CreatesAUser\\20190128_113227\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mitali.p.shah - CPX-SJJHSRSSIFU.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="13dfe578-8b28-4ea5-a96e-fb458e9e2af1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CreateUser" classname="Test Cases/CreateUser" status="PASSED">
+         <system-out><![CDATA[2019-01-28 11:34:59 - [TEST_CASE][PASSED] - Test Cases/CreateUser: Test Cases/CreateUser
+
+2019-01-28 11:35:01 - [TEST_STEP][PASSED] - for ([row = 1, row <= findTestData("TestData").getRowNumbers(), (row++)]): Browser is closed
+
+2019-01-28 11:35:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-28 11:35:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-28 11:35:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-28 11:35:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-28 11:35:38 - [TEST_STEP][PASSED] - navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/"): Navigate to 'https://iddtrain.georgiacollaborative.com/IDDPortal/' successfully
+
+2019-01-28 11:35:48 - [MESSAGE][PASSED] - Navigate to 'https://iddtrain.georgiacollaborative.com/IDDPortal/' successfully
+
+2019-01-28 11:35:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 11:35:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 11:35:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here' is clicked on
+
+2019-01-28 11:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here' is clicked on
+
+2019-01-28 11:35:52 - [TEST_STEP][PASSED] - setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname"), findTestData("TestData").getValue("FirstName", row)): Text 'Tester' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname'
+
+2019-01-28 11:35:54 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname'
+
+2019-01-28 11:35:54 - [TEST_STEP][PASSED] - setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname"), findTestData("TestData").getValue("LastName", row)): Text 'Testsone' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname'
+
+2019-01-28 11:35:54 - [MESSAGE][PASSED] - Text 'Testsone' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname'
+
+2019-01-28 11:35:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username"), findTestData("TestData").getValue("CreateUsername", row)): Text 'TesterTests11' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username'
+
+2019-01-28 11:35:54 - [MESSAGE][PASSED] - Text 'TesterTests11' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username'
+
+2019-01-28 11:35:54 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password"), findTestData("TestData").getValue("CreatePassword", row)): Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password'
+
+2019-01-28 11:35:55 - [MESSAGE][PASSED] - Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password'
+
+2019-01-28 11:35:55 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword"), findTestData("TestData").getValue("ConfirmPassword", row)): Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword'
+
+2019-01-28 11:35:55 - [MESSAGE][PASSED] - Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword'
+
+2019-01-28 11:35:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email"), findTestData("TestData").getValue("Email", row)): Text 'test11@tests.com' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email'
+
+2019-01-28 11:35:55 - [MESSAGE][PASSED] - Text 'test11@tests.com' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email'
+
+2019-01-28 11:35:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --"), "14: 7", true): All options with value '14: 7' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --'  using regular expression
+
+2019-01-28 11:35:56 - [MESSAGE][PASSED] - All options with value '14: 7' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --'  using regular expression
+
+2019-01-28 11:35:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1"), findTestData("TestData").getValue("Answer1", row)): Text 'Tampa' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1'
+
+2019-01-28 11:35:56 - [MESSAGE][PASSED] - Text 'Tampa' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1'
+
+2019-01-28 11:35:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1"), "12: 3", true): All options with value '12: 3' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1'  using regular expression
+
+2019-01-28 11:35:57 - [MESSAGE][PASSED] - All options with value '12: 3' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1'  using regular expression
+
+2019-01-28 11:35:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2"), findTestData("TestData").getValue("Answer2", row)): Text 'Designated Survivor' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2'
+
+2019-01-28 11:35:57 - [MESSAGE][PASSED] - Text 'Designated Survivor' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2'
+
+2019-01-28 11:35:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2"), "13: 4", true): All options with value '13: 4' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2'  using regular expression
+
+2019-01-28 11:35:58 - [MESSAGE][PASSED] - All options with value '13: 4' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2'  using regular expression
+
+2019-01-28 11:35:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3"), findTestData("TestData").getValue("Answer3", row)): Text 'Blue' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3'
+
+2019-01-28 11:35:58 - [MESSAGE][PASSED] - Text 'Blue' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3'
+
+2019-01-28 11:35:58 - [TEST_STEP][PASSED] - click(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang' is clicked on
+
+2019-01-28 11:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang' is clicked on
+
+2019-01-28 11:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue' is clicked on
+
+2019-01-28 11:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue' is clicked on
+
+2019-01-28 11:35:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 11:36:03 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-28 11:36:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-28 11:36:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-28 11:36:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-28 11:36:40 - [TEST_STEP][PASSED] - navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/"): Navigate to 'https://iddtrain.georgiacollaborative.com/IDDPortal/' successfully
+
+2019-01-28 11:36:48 - [MESSAGE][PASSED] - Navigate to 'https://iddtrain.georgiacollaborative.com/IDDPortal/' successfully
+
+2019-01-28 11:36:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 11:36:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 11:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here' is clicked on
+
+2019-01-28 11:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here' is clicked on
+
+2019-01-28 11:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname"), findTestData("TestData").getValue("FirstName", row)): Text 'Tester' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname'
+
+2019-01-28 11:36:55 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname'
+
+2019-01-28 11:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname"), findTestData("TestData").getValue("LastName", row)): Text 'Teststwo' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname'
+
+2019-01-28 11:36:56 - [MESSAGE][PASSED] - Text 'Teststwo' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname'
+
+2019-01-28 11:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username"), findTestData("TestData").getValue("CreateUsername", row)): Text 'TesterTests21' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username'
+
+2019-01-28 11:36:56 - [MESSAGE][PASSED] - Text 'TesterTests21' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username'
+
+2019-01-28 11:36:56 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password"), findTestData("TestData").getValue("CreatePassword", row)): Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password'
+
+2019-01-28 11:36:57 - [MESSAGE][PASSED] - Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password'
+
+2019-01-28 11:36:57 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword"), findTestData("TestData").getValue("ConfirmPassword", row)): Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword'
+
+2019-01-28 11:36:57 - [MESSAGE][PASSED] - Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword'
+
+2019-01-28 11:36:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email"), findTestData("TestData").getValue("Email", row)): Text 'test22@tests.com' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email'
+
+2019-01-28 11:36:58 - [MESSAGE][PASSED] - Text 'test22@tests.com' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email'
+
+2019-01-28 11:36:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --"), "14: 7", true): All options with value '14: 7' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --'  using regular expression
+
+2019-01-28 11:36:59 - [MESSAGE][PASSED] - All options with value '14: 7' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --'  using regular expression
+
+2019-01-28 11:36:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1"), findTestData("TestData").getValue("Answer1", row)): Text 'Atlanta' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1'
+
+2019-01-28 11:36:59 - [MESSAGE][PASSED] - Text 'Atlanta' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1'
+
+2019-01-28 11:36:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1"), "12: 3", true): All options with value '12: 3' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1'  using regular expression
+
+2019-01-28 11:37:00 - [MESSAGE][PASSED] - All options with value '12: 3' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1'  using regular expression
+
+2019-01-28 11:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2"), findTestData("TestData").getValue("Answer2", row)): Text 'Homeland Security' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2'
+
+2019-01-28 11:37:00 - [MESSAGE][PASSED] - Text 'Homeland Security' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2'
+
+2019-01-28 11:37:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2"), "13: 4", true): All options with value '13: 4' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2'  using regular expression
+
+2019-01-28 11:37:01 - [MESSAGE][PASSED] - All options with value '13: 4' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2'  using regular expression
+
+2019-01-28 11:37:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3"), findTestData("TestData").getValue("Answer3", row)): Text 'Yellow' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3'
+
+2019-01-28 11:37:01 - [MESSAGE][PASSED] - Text 'Yellow' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3'
+
+2019-01-28 11:37:01 - [TEST_STEP][PASSED] - click(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang' is clicked on
+
+2019-01-28 11:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang' is clicked on
+
+2019-01-28 11:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue' is clicked on
+
+2019-01-28 11:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue' is clicked on
+
+2019-01-28 11:37:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 11:37:05 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-28 11:37:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-28 11:37:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-28 11:37:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-28 11:37:35 - [TEST_STEP][PASSED] - navigateToUrl("https://iddtrain.georgiacollaborative.com/IDDPortal/"): Navigate to 'https://iddtrain.georgiacollaborative.com/IDDPortal/' successfully
+
+2019-01-28 11:37:47 - [MESSAGE][PASSED] - Navigate to 'https://iddtrain.georgiacollaborative.com/IDDPortal/' successfully
+
+2019-01-28 11:37:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-28 11:37:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-28 11:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here' is clicked on
+
+2019-01-28 11:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/a_New User Please Sign Up Here' is clicked on
+
+2019-01-28 11:37:51 - [TEST_STEP][PASSED] - setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname"), findTestData("TestData").getValue("FirstName", row)): Text 'Tester' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname'
+
+2019-01-28 11:37:53 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__firstname'
+
+2019-01-28 11:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname"), findTestData("TestData").getValue("LastName", row)): Text 'Teststhree' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname'
+
+2019-01-28 11:37:53 - [MESSAGE][PASSED] - Text 'Teststhree' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__lastname'
+
+2019-01-28 11:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username"), findTestData("TestData").getValue("CreateUsername", row)): Text 'TesterTests31' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username'
+
+2019-01-28 11:37:53 - [MESSAGE][PASSED] - Text 'TesterTests31' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__username'
+
+2019-01-28 11:37:53 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password"), findTestData("TestData").getValue("CreatePassword", row)): Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password'
+
+2019-01-28 11:37:54 - [MESSAGE][PASSED] - Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__password'
+
+2019-01-28 11:37:54 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword"), findTestData("TestData").getValue("ConfirmPassword", row)): Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword'
+
+2019-01-28 11:37:54 - [MESSAGE][PASSED] - Text '***********' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__rpassword'
+
+2019-01-28 11:37:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email"), findTestData("TestData").getValue("Email", row)): Text 'test33@tests.com' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email'
+
+2019-01-28 11:37:55 - [MESSAGE][PASSED] - Text 'test33@tests.com' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__email'
+
+2019-01-28 11:37:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --"), "14: 7", true): All options with value '14: 7' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --'  using regular expression
+
+2019-01-28 11:37:56 - [MESSAGE][PASSED] - All options with value '14: 7' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --'  using regular expression
+
+2019-01-28 11:37:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1"), findTestData("TestData").getValue("Answer1", row)): Text 'Atlanta' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1'
+
+2019-01-28 11:37:56 - [MESSAGE][PASSED] - Text 'Atlanta' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer1'
+
+2019-01-28 11:37:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1"), "12: 3", true): All options with value '12: 3' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1'  using regular expression
+
+2019-01-28 11:37:57 - [MESSAGE][PASSED] - All options with value '12: 3' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _1'  using regular expression
+
+2019-01-28 11:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2"), findTestData("TestData").getValue("Answer2", row)): Text 'Bodyguard' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2'
+
+2019-01-28 11:37:57 - [MESSAGE][PASSED] - Text 'Bodyguard' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer2'
+
+2019-01-28 11:37:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2"), "13: 4", true): All options with value '13: 4' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2'  using regular expression
+
+2019-01-28 11:37:58 - [MESSAGE][PASSED] - All options with value '13: 4' are selected in object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/select_-- Select --           _2'  using regular expression
+
+2019-01-28 11:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3"), findTestData("TestData").getValue("Answer3", row)): Text 'Purple' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3'
+
+2019-01-28 11:37:59 - [MESSAGE][PASSED] - Text 'Purple' is set on object 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__answer3'
+
+2019-01-28 11:37:59 - [TEST_STEP][PASSED] - click(findTestObject("GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang' is clicked on
+
+2019-01-28 11:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/input__preflang' is clicked on
+
+2019-01-28 11:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue")): Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue' is clicked on
+
+2019-01-28 11:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GeorgiaPowerPOC/Page_Online Application for Intelle/button_Continue' is clicked on
+
+2019-01-28 11:38:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-28 11:38:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-28 11:34:59 - [TEST_SUITE][PASSED] - CreatesAUser: Test Cases/CreateUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
